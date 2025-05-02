@@ -16,7 +16,7 @@ Se emplearán herramientas de sistemas de información geográfica (SIG), análi
 ## Obrera
 
 ```js
-const Obrera002Data = FileAttachment("./data/gis/002_Obrera.geojson").json()
+const Obrera002Data = FileAttachment("././data/gis/002_Obrera.geojson").json()
 const VSP0011 = FileAttachment("./data/gis/0011_VSP.geojson").json()
 const VSP_AreaComercial_L1 = FileAttachment("./data/gis/0012_VSP_Area_Comercial_L1.geojson").json()
 const VSP_AreaComercial_L2 = FileAttachment("./data/gis/0013_VSP_Area_Comercial_L2.geojson").json()
@@ -37,7 +37,8 @@ const CV_TiendasDepartamentales = FileAttachment("./data/gis/Tiendas_departament
 ```js
 import createMap from "./components/simplemap.js";
 const container = document.createElement("div");
-container.style.height = "400px";
+container.style.height = "100vh";
+container.style.width = "100vw";
 display(container);
 createMap(container, [Obrera002Data, CV_Bancos, CV_CentrosReligiosos, CV_Cines, CV_Escuelas, CV_Farmacias, CV_Hospitales, CV_Hoteles, CV_Restaurantes, CV_TiendasDeConveniencia, CV_TiendasDepartamentales]);
 ```
