@@ -1,22 +1,14 @@
 ---
-title: Paragon Desarrollos
+title: Introducción
 toc: false
 index: true
-# keywords:
-# draft:
-# sql: 
+keywords: geointeligencia, bienes raíces, STRTGY, Paragon
 ---
 
-# Paragon Desarrollos
+# Introducción
 
-Son una empresa dedicada al desarrollo de fraccionamientos inmobiliarios que se distingue por la colaboración de un equipo altamente profesional y comprometido con sus clientes. 
+El presente reporte forma parte del proyecto **Paragon**, una iniciativa de inteligencia geoestadística aplicada al sector inmobiliario, desarrollada por STRTGY. Este documento busca proporcionar análisis territoriales accionables para tomar decisiones informadas sobre inversiones inmobiliarias en diversos contextos urbanos y rurales en México.
 
-## Misión y Valores
+Paragon se sustenta en la combinación de datos públicos, fuentes privadas y modelos propios que permiten estimar vocaciones de desarrollo, rentabilidad potencial, competencia y demanda insatisfecha, ajustado a las necesidades estratégicas de cada subproyecto del cliente.
 
-### Enfocados en la Excelencia
-
-#### Misión
-Somos una empresa mexicana con la misión de construir para el bienestar, y contribuir en una mejor sociedad, dando vida a los proyectos de nuestros clientes.
-
-#### Visión  
-La visión como empresa, es crear valor en cada proyecto en el que participamos, buscando optimización y rentabilidad en nuestros procesos.
+Esta sección introduce los objetivos generales del estudio, su marco metodológico y las premisas clave que guían su construcción.

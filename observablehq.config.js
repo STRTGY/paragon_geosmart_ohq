@@ -18,17 +18,17 @@ export default {
     {
       name: "Vitrinas metodológicas",
       pages: [
-        { name: "Vivienda en Zona Laboral - SLP", path: "/residential_slp" },
-        { name: "Fuentes de Datos", path: "./pages/00_planteamiento_general/data_sources" }
+        // { name: "Vivienda en Zona Laboral - SLP", path: "/residential_slp" },
+        { name: "Fuentes de Datos", path: "./pages/01_metodologia/project_sources" }
       ]
     },
     {
       name: "Análisis Exploratorio",
       pages: [
-        { name: "Mapa Maestro de Subproyectos", path: "/eda" },
-        { name: "Comparativa Territorial", path: "/territorial_comparison" },
-        { name: "Indicadores Socioeconómicos", path: "/socioeconomic_indicators" },
-        { name: "Insights Relevantes", path: "/key_insights" }
+        { name: "Mapa Maestro de Subproyectos", path: "./pages/02_analisis_exploratorio/eda" },
+        { name: "Comparativa Territorial", path: "./pages/02_analisis_exploratorio/territorial_comparison" },
+        { name: "Indicadores Socioeconómicos", path: "./pages/02_analisis_exploratorio/socioeconomic_indicators" },
+        { name: "Insights Relevantes", path: "./pages/02_analisis_exploratorio/key_insights" }
       ]
     },
     // {      name: "Subproyectos Residenciales",
@@ -80,14 +80,14 @@ export default {
   root: "src",
 
   // Some additional configuration options and their defaults:
-  theme: "glacier", // try "light", "dark", "slate", etc.
+  theme: "cotton", // try "light", "dark", "slate", etc.
   // header: "", // what to show in the header (HTML)
   footer: "Construído por STRTGY AI (2025).", // what to show in the footer (HTML)
-  // sidebar: true, // whether to show the sidebar
+  sidebar: true, // whether to show the sidebar
   // toc: true, // whether to show the table of contents
-  // pager: true, // whether to show previous & next links in the footer
+  pager: true, // whether to show previous & next links in the footer
   // output: "dist", // path to the output root for build
-  // search: true, // activate search
+  search: true, // activate search
   // linkify: true, // convert URLs in Markdown to links
   typographer: true, // smart quotes and other typographic improvements
   // preserveExtension: false, // drop .html from URLs
