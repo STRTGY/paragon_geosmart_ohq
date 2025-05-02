@@ -1,6 +1,10 @@
 ---
 title: Paragon Desarrollos
 toc: false
+index: true
+# keywords:
+# draft:
+# sql: 
 ---
 
 # Paragon Desarrollos

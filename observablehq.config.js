@@ -8,27 +8,69 @@ export default {
   // lets you organize them into sections and have unlisted pages.
   pages: [
     {
-      name: "Planteamiento de Proyecto",
+      name: "Planteamiento General",
       pages: [
-        {name: "Paragon", path: "/paragon"},
-        {name: "Contexto", path: "/project_context"}
+        { name: "Introducción", path: "./pages/00_planteamiento_general/introduccion" },
+        { name: "Objetivos del Proyecto", path: "./pages/00_planteamiento_general/objetivos" },
+        { name: "Geosmart by STRTGY", path: "./pages/00_planteamiento_general/geosmart" },
       ]
     },
     {
-      name: "Análisis Exploratorio Inicial",
+      name: "Vitrinas metodológicas",
       pages: [
-        {name: "Introducción", path: "/eda"},
-        {name: "Contexto", path: "/example-report"},
-        {name: "Propiedades", path: "/example-report"}
+        { name: "Vivienda en Zona Laboral - SLP", path: "/residential_slp" },
+        { name: "Fuentes de Datos", path: "./pages/00_planteamiento_general/data_sources" }
       ]
     },
     {
-      name: "Análisis Exploratorio Inicial",
+      name: "Análisis Exploratorio",
       pages: [
-        {name: "Introducción", path: "/eda"},
-        {name: "Contexto", path: "/example-report"}
+        { name: "Mapa Maestro de Subproyectos", path: "/eda" },
+        { name: "Comparativa Territorial", path: "/territorial_comparison" },
+        { name: "Indicadores Socioeconómicos", path: "/socioeconomic_indicators" },
+        { name: "Insights Relevantes", path: "/key_insights" }
       ]
-    }
+    },
+    // {      name: "Subproyectos Residenciales",
+    //   pages: [
+    //     { name: "Vivienda en Zona Laboral - SLP", path: "/residential_slp" }
+    //   ]
+    // },
+
+    // {
+    //   name: "Subproyectos Comerciales",
+    //   pages: [
+    //     { name: "Plaza Mixta - Ciudad Valles", path: "/plaza_valles" },
+    //     { name: "Ubicaciones Starbucks - Monterrey", path: "/starbucks_mty" },
+    //     { name: "Terreno Estratégico - Tamuín", path: "/expansion_tamuin" },
+    //     { name: "Bodega vs Plaza - SLP", path: "/plaza_vs_bodega" }
+    //   ]
+    // },
+
+    // {
+    //   name: "Subproyectos de Salud",
+    //   pages: [
+    //     { name: "Hospital Privado - SLP", path: "/hospital_slp" },
+    //     { name: "Hospitales Potenciales - Querétaro", path: "/hospitales_qro" }
+    //   ]
+    // },
+
+    // {
+    //   name: "Subproyectos Logísticos",
+    //   pages: [
+    //     { name: "Centro Logístico para Mercado Libre", path: "/mercadolibre_slp" }
+    //   ]
+    // },
+
+    // {
+    //   name: "Síntesis Ejecutiva",
+    //   pages: [
+    //     { name: "Resumen Estratégico", path: "/executive_summary" },
+    //     { name: "Mapa Interactivo Final", path: "/mapa_sintesis" },
+    //     { name: "Recomendaciones por Proyecto", path: "/recommendations" },
+    //     { name: "Descargables y Anexos", path: "/downloads" }
+    //   ]
+    // },
   ],
 
   // Content to add to the head of the page, e.g. for a favicon:
