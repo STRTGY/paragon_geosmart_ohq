@@ -1,15 +1,22 @@
 ---
-title: Geosmart by STRTGY
-toc: false
+title: Geosmart by STRTGY - Metodología de Análisis
+toc: true
 index: true
-keywords: geointeligencia, framework, STRTGY
+keywords: geointeligencia, framework, STRTGY, EVA, metodología, análisis territorial, IA
 ---
 
-# Geosmart by STRTGY
+# Geosmart by STRTGY: Metodología de Análisis
+
+## Definiciones Clave
+
+*   **Geosmart:** Es el framework tecnológico y metodológico propietario de STRTGY para el análisis geoespacial avanzado. Integra múltiples fuentes de datos, técnicas de SIG (Sistemas de Información Geográfica) y modelos de Inteligencia Artificial (IA) para generar inteligencia territorial.
+*   **EVA (Enterprise Virtual Assistant):** Es la *aplicación específica* del framework Geosmart configurada para el proyecto Paragon. EVA opera como la solución analítica de STRTGY para evaluar la viabilidad y optimizar las decisiones de desarrollo inmobiliario de Paragon en sus proyectos específicos.
 
 ## Propuesta para Análisis de Viabilidad Territorial
 
-**EVA: Analista de Viabilidad Territorial** es la solución desarrollada por STRTGY para transformar datos en inteligencia estratégica, facilitando decisiones de desarrollo inmobiliario para Paragon. Geosmart es el núcleo técnico de este enfoque, integrando análisis avanzado y modelos de inteligencia artificial (IA) para evaluar oportunidades territoriales de manera integral.
+EVA es la solución desarrollada por STRTGY para transformar datos en inteligencia estratégica, facilitando decisiones de desarrollo inmobiliario para Paragon. Geosmart es el núcleo técnico de este enfoque, integrando análisis avanzado y modelos de IA para evaluar oportunidades territoriales de manera integral.
+
+Utilizamos diversas fuentes de datos como [Ejemplos: Censos INEGI, Directorio Estadístico Nacional de Unidades Económicas (DENUE), datos de movilidad anonimizados, imágenes satelitales Sentinel/Landsat, datos de redes sociales, información catastral, etc.].
 
 ## Temas Principales e Ideas Importantes
 
@@ -35,6 +42,8 @@ EVA va más allá de los estudios tradicionales de ubicación, integrando IA par
 El enfoque está dirigido al desarrollo y comercialización de propiedades residenciales, hospitalarias y comerciales (retail, hoteles, restaurantes) en San Luis Potosí y otras regiones estratégicas de México. Se reconoce la necesidad de una metodología clara para la toma de decisiones, desde la selección de ubicación hasta la conceptualización del producto.
 
 ### Dos Escenarios de Análisis
+
+<!-- Insertar Tabla Comparativa Resumen Escenarios A/B -->
 
 - **Escenario A: Análisis de Ubicación Específica**  
   Evaluación detallada de una ubicación predeterminada para determinar su potencial de desarrollo, considerando demografía, infraestructura, competencia y normatividad. Incluye estudios de mercado, proyecciones de demanda y evaluación de riesgos específicos del sitio.
@@ -66,6 +75,8 @@ Cubre residencial (varios segmentos), hospitales (con enfoque comercial) y plaza
 
 ### Proceso del Escenario A (Coordenada Específica)
 
+<!-- Insertar Diagrama Flujo Escenario A -->
+
 1. **Caracterización de la Ubicación:**  
    Análisis de uso de suelo, restricciones legales, servicios públicos, infraestructura y accesibilidad.
 
@@ -79,6 +90,8 @@ Cubre residencial (varios segmentos), hospitales (con enfoque comercial) y plaza
    Viabilidad de cada tipo de proyecto, oportunidades de diferenciación y recomendaciones estratégicas.
 
 ### Proceso del Escenario B (Región Más Amplia)
+
+<!-- Insertar Diagrama Flujo Escenario B -->
 
 1. **Definición de Criterios y Ponderación:**  
    Accesibilidad, servicios, oferta de terrenos, seguridad y criterios específicos por tipo de proyecto.
@@ -101,3 +114,13 @@ Cubre residencial (varios segmentos), hospitales (con enfoque comercial) y plaza
 - **Salud:** Demanda y cobertura, competencia, especialidades, accesibilidad, posicionamiento de marca.
 - **Plazas Comerciales:** Perfil y demanda del público, análisis socioeconómico, hábitos de consumo, competencia, sinergias entre componentes.
 - **Análisis Adicional:** Tendencias del mercado, proyecciones de crecimiento, impacto ambiental, regulaciones.
+
+## Entregables Típicos
+
+Los resultados se presentan mediante una combinación de:
+
+*   Reportes analíticos detallados.
+*   Dashboards interactivos con visualizaciones.
+*   Capas de datos geoespaciales (ej. GeoJSON, Shapefiles) para integración en sistemas GIS del cliente.
+*   Mapas temáticos estáticos y dinámicos.
+*   Presentaciones ejecutivas con hallazgos clave y recomendaciones.

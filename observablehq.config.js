@@ -18,7 +18,7 @@ export default {
     {
       name: "Vitrinas metodológicas",
       pages: [
-        // { name: "Vivienda en Zona Laboral - SLP", path: "/residential_slp" },
+        { name: "Viabilidad de Starbucks en Monterrey", path: "/mty_starbucks" },
         { name: "Fuentes de Datos", path: "./pages/01_metodologia/project_sources" }
       ]
     },
