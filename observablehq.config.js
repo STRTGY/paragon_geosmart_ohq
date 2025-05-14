@@ -18,6 +18,7 @@ export default {
     {
       name: "Vitrinas metodológicas",
       pages: [
+        { name: "Marco de Análisis Geoestadístico", path: "./pages/01_metodologia/subproject_base_layer" },
         { name: "Viabilidad de Starbucks en Monterrey", path: "./pages/01_metodologia/mty_starbucks" },
         { name: "Fuentes de Datos", path: "./pages/01_metodologia/project_sources" }
       ]
