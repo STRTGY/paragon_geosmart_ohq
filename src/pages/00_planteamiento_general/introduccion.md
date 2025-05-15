@@ -7,8 +7,16 @@ keywords: geointeligencia, bienes raíces, STRTGY, Paragon, Geosmart
 
 # Introducción
 
-El presente reporte forma parte del proyecto **Paragon**, una iniciativa de inteligencia geoestadística aplicada al sector inmobiliario solicitada por [Nombre del Cliente o "los decisores de Paragon"], y desarrollada por STRTGY. Este documento busca proporcionar análisis territoriales accionables para tomar decisiones informadas sobre inversiones inmobiliarias en diversos contextos urbanos y rurales en México, utilizando como núcleo técnico la plataforma **Geosmart by STRTGY**.
+Paragon opera bajo la premisa de que la inteligencia territorial no debe limitarse a variables técnicas, sino que debe integrarse con información de comportamiento digital, movilidad, hábitos de consumo y modelos predictivos adaptativos. En ese sentido, este reporte ofrece un enfoque holístico, que une la ciencia de datos, la visualización interactiva y la interpretación estratégica del entorno urbano y periurbano.
 
-Paragon se sustenta en la combinación de datos públicos (ej. INEGI, DENUE), fuentes privadas y modelos propios que permiten estimar vocaciones de desarrollo, rentabilidad potencial, competencia y demanda insatisfecha, ajustado a las necesidades estratégicas de cada subproyecto del cliente.
+Los resultados presentados están organizados por ciudad y tipo de desarrollo, abarcando desde la expansión de cadenas comerciales como Starbucks, hasta la evaluación de terrenos para hospitales, centros logísticos o desarrollos habitacionales. Cada análisis incluye:
 
-Esta sección introduce los objetivos generales del estudio (ver [Objetivos del Proyecto](./objetivos.md)), su marco metodológico detallado en [Geosmart by STRTGY](./geosmart.md) y las premisas clave que guían su construcción.
+- Diagnóstico geoestadístico con representación cartográfica interactiva.
+
+- Insights derivados de redes sociales, tráfico digital y comportamiento del consumidor.
+
+- Evaluación comparativa de vocaciones territoriales.
+
+- Recomendaciones prácticas basadas en indicadores clave y patrones detectados.
+
+Este reporte está diseñado para ser explorado dinámicamente, permitiendo al lector navegar por regiones, comparar alternativas y filtrar la información de acuerdo con sus intereses estratégicos. Las conclusiones buscan no solo ofrecer respuestas, sino también sugerir preguntas clave para la toma de decisiones futuras.

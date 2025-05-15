@@ -5,6 +5,9 @@ index: true
 keywords: geointeligencia, framework, STRTGY, EVA, metodología, análisis territorial, IA
 ---
 
+```js
+import mermaid from "npm:@observablehq/mermaid";
+```
 # Geosmart by STRTGY: Metodología de Análisis
 
 ## Definiciones Clave
@@ -43,7 +46,21 @@ El enfoque está dirigido al desarrollo y comercialización de propiedades resid
 
 ### Dos Escenarios de Análisis
 
-<!-- Insertar Tabla Comparativa Resumen Escenarios A/B -->
+```mermaid
+graph LR;
+    A[Análisis Territorial] --> B[Escenario A: 
+    Ubicación Específica];
+    A --> C[Escenario B:
+    Búsqueda de Ubicación
+    Óptima];
+    B --> D[Evaluación detallada:
+    demografía, infraestructura,
+    competencia];
+    C --> E[Exploración sistemática
+    con IA];
+    D --> F[Decisión Estratégica];
+    E --> F;
+```
 
 - **Escenario A: Análisis de Ubicación Específica**  
   Evaluación detallada de una ubicación predeterminada para determinar su potencial de desarrollo, considerando demografía, infraestructura, competencia y normatividad. Incluye estudios de mercado, proyecciones de demanda y evaluación de riesgos específicos del sitio.

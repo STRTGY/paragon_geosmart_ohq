@@ -1,9 +1,9 @@
 // See https://observablehq.com/framework/config for documentation.
 export default {
-  // The app’s title; used in the sidebar and webpage titles.
+  // The app's title; used in the sidebar and webpage titles.
   title: "Paragon | Geosmart AI for Real State",
 
-  // The pages and sections in the sidebar. If you don’t specify this option,
+  // The pages and sections in the sidebar. If you don't specify this option,
   // all pages will be listed in alphabetical order. Listing pages explicitly
   // lets you organize them into sections and have unlisted pages.
   pages: [
@@ -30,6 +30,39 @@ export default {
         { name: "Comparativa Territorial", path: "./pages/02_analisis_exploratorio/territorial_comparison" },
         { name: "Indicadores Socioeconómicos", path: "./pages/02_analisis_exploratorio/socioeconomic_indicators" },
         { name: "Insights Relevantes", path: "./pages/02_analisis_exploratorio/key_insights" }
+      ]
+    },
+    {
+      name: "Subproyectos Residenciales",
+      pages: [
+        { name: "Vivienda en San Luis Potosí", path: "./pages/03_geosmart/vivienda_sanluispotosi" },
+        { name: "Residencial en Ciudad Valles", path: "./pages/03_geosmart/residencial_ciudadvalles" }
+      ]
+    },
+    {
+      name: "Subproyectos Comerciales",
+      pages: [
+        { name: "Plaza Comercial en Ciudad Valles", path: "./pages/03_geosmart/plazacomercial_ciudadvalles" },
+        { name: "Vocación de Terreno SLP: Bodega vs Plaza", path: "./pages/03_geosmart/vocacionterreno_sanluispotosi" }
+      ]
+    },
+    {
+      name: "Subproyectos de Salud",
+      pages: [
+        { name: "Hospital en Ciudad Valles", path: "./pages/03_geosmart/hospital_ciudadvalles" },
+        { name: "Hospital en Querétaro", path: "./pages/03_geosmart/hospital_queretaro" }
+      ]
+    },
+    {
+      name: "Subproyectos Logísticos",
+      pages: [
+        { name: "Centro Logístico Mercado Libre SLP", path: "./pages/03_geosmart/mercadolibre_sanluispotosi" }
+      ]
+    },
+    {
+      name: "Subproyectos de Expansión",
+      pages: [
+        { name: "Expansión en Tamuín", path: "./pages/03_geosmart/expansion_tamuin" }
       ]
     },
     // {      name: "Subproyectos Residenciales",
