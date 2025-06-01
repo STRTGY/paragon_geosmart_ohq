@@ -29,19 +29,71 @@ El presente análisis geoestadístico tiene como objetivos específicos: (1) eva
 
 ### 3.1. Mapas de Áreas de Influencia y Crecimiento
 
-<!-- Visualización de áreas de influencia del aeropuerto y proyecciones de crecimiento. -->
+El análisis de áreas de influencia permite identificar las zonas de mayor impacto alrededor del nuevo aeropuerto de Tamuín. Este mapa visualiza radios de influencia a diferentes distancias (5, 10 y 15 km) y proyecta el crecimiento esperado basándose en patrones observados en otros aeropuertos mexicanos. Las áreas sombreadas representan zonas con mayor potencial de desarrollo comercial y habitacional, considerando factores como accesibilidad, conectividad vial y uso de suelo actual.
+
+```js
+const div = display(document.createElement("div"));
+div.style = "height: 500px;";
+
+const map1 = new mapboxgl.Map({
+  container: div,
+  accessToken: "pk.eyJ1IjoiZmVpcG93ZXIiLCJhIjoiY21hbjd5bnQ4MG93NTJsc2Z3dzdzNnRiNiJ9.942M6p7lPTB0M2wU4p7cHg", 
+  style: 'mapbox://styles/feipower/cman7dnzb01i601s3e0xua814',
+  center: [-98.7797, 22.0055], // Coordenadas de Tamuín, San Luis Potosí, México
+  zoom: 12
+});
+```
 
 ### 3.2. Análisis de Competencia y Mercado Potencial
 
-<!-- Mapas y tablas de competencia y mercado potencial. -->
+La evaluación de competencia y mercado potencial identifica establecimientos existentes y oportunidades no cubiertas en Tamuín. Este mapa presenta la distribución actual de comercios, servicios e industrias, categorizados por tipo de actividad económica según el DENUE de INEGI. Los puntos de calor indican concentraciones de actividad comercial, mientras que las áreas con menor densidad representan oportunidades potenciales de desarrollo. Se incluye análisis de poder adquisitivo y demografía para dimensionar el mercado objetivo.
+
+```js
+const div = display(document.createElement("div"));
+div.style = "height: 500px;";
+
+const map2 = new mapboxgl.Map({
+  container: div,
+  accessToken: "pk.eyJ1IjoiZmVpcG93ZXIiLCJhIjoiY21hbjd5bnQ4MG93NTJsc2Z3dzdzNnRiNiJ9.942M6p7lPTB0M2wU4p7cHg", 
+  style: 'mapbox://styles/feipower/cman7dnzb01i601s3e0xua814',
+  center: [-98.7797, 22.0055], // Coordenadas de Tamuín, San Luis Potosí, México
+  zoom: 12
+});
+```
 
 ### 3.3. Evaluación de Oportunidades de Inversión
 
-<!-- Análisis de oportunidades de inversión y riesgos. -->
+Este análisis integra múltiples variables para identificar las mejores oportunidades de inversión en Tamuín. El mapa muestra una clasificación de zonas según su potencial de retorno de inversión, considerando factores como: valor del suelo, tendencias de crecimiento poblacional, infraestructura disponible, riesgos ambientales y regulaciones de uso de suelo. Las zonas en verde representan las oportunidades más atractivas, mientras que las zonas en rojo indican mayores restricciones o riesgos.
+
+```js
+const div = display(document.createElement("div"));
+div.style = "height: 500px;";
+
+const map3 = new mapboxgl.Map({
+  container: div,
+  accessToken: "pk.eyJ1IjoiZmVpcG93ZXIiLCJhIjoiY21hbjd5bnQ4MG93NTJsc2Z3dzdzNnRiNiJ9.942M6p7lPTB0M2wU4p7cHg", 
+  style: 'mapbox://styles/feipower/cman7dnzb01i601s3e0xua814',
+  center: [-98.7797, 22.0055], // Coordenadas de Tamuín, San Luis Potosí, México
+  zoom: 12
+});
+```
 
 ### 3.4. Priorización de Zonas para Expansión
 
-<!-- Tabla y mapa de zonas con mayor potencial de expansión. -->
+La priorización de zonas combina todos los análisis anteriores para generar una recomendación estratégica de expansión. Este mapa presenta una clasificación jerárquica de las zonas según su potencial integral, considerando factibilidad técnica, viabilidad económica y alineación con las tendencias de desarrollo regional. Las zonas se clasifican en tres niveles de prioridad (alta, media, baja) y se complementan con recomendaciones específicas de tipo de desarrollo más adecuado para cada área (comercial, habitacional, mixto o industrial).
+
+```js
+const div = display(document.createElement("div"));
+div.style = "height: 500px;";
+
+const map4 = new mapboxgl.Map({
+  container: div,
+  accessToken: "pk.eyJ1IjoiZmVpcG93ZXIiLCJhIjoiY21hbjd5bnQ4MG93NTJsc2Z3dzdzNnRiNiJ9.942M6p7lPTB0M2wU4p7cHg", 
+  style: 'mapbox://styles/feipower/cman7dnzb01i601s3e0xua814',
+  center: [-98.7797, 22.0055], // Coordenadas de Tamuín, San Luis Potosí, México
+  zoom: 12
+});
+```
 
 ---
 
@@ -66,14 +118,6 @@ El presente análisis geoestadístico tiene como objetivos específicos: (1) eva
 - Resumen de los hallazgos más relevantes.
 - Valor agregado del enfoque geoestadístico.
 - Impacto esperado para el desarrollo en Tamuín.
-
----
-
-## 7. Anexos
-
-- Detalle de fuentes de datos y scripts utilizados.
-- Metodología técnica para generación de indicadores.
-- Tablas y mapas complementarios.
 
 ---
 

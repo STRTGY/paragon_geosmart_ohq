@@ -61,17 +61,69 @@ createMap(mapContainer, [], {
 
 <!-- Visualización de áreas de influencia por tiempo de viaje, comparación entre horarios y modos de transporte. -->
 
+```js
+const div = display(document.createElement("div"));
+div.style = "height: 500px;";
+
+const map1 = new mapboxgl.Map({
+  container: div,
+  accessToken: "pk.eyJ1IjoiZmVpcG93ZXIiLCJhIjoiY21hbjd5bnQ4MG93NTJsc2Z3dzdzNnRiNiJ9.942M6p7lPTB0M2wU4p7cHg", 
+  style: 'mapbox://styles/feipower/cman7dnzb01i601s3e0xua814',
+  center: [-100.3161, 25.6866], // Coordenadas de San Luis Potosí, México
+  zoom: 12
+});
+```
+
 ### 3.2. Análisis Sociodemográfico y Económico
 
 <!-- Mapas y tablas de densidad de población, ingreso, empleo, etc. -->
+
+```js
+const div = display(document.createElement("div"));
+div.style = "height: 500px;";
+
+const map1 = new mapboxgl.Map({
+  container: div,
+  accessToken: "pk.eyJ1IjoiZmVpcG93ZXIiLCJhIjoiY21hbjd5bnQ4MG93NTJsc2Z3dzdzNnRiNiJ9.942M6p7lPTB0M2wU4p7cHg", 
+  style: 'mapbox://styles/feipower/cman7dnzb01i601s3e0xua814',
+  center: [-100.3161, 25.6866], // Coordenadas de San Luis Potosí, México
+  zoom: 12
+});
+```
 
 ### 3.3. Mapeo de Competencia y Puntos de Interés
 
 <!-- Localización de Starbucks existentes y competidores. -->
 
+```js
+const div = display(document.createElement("div"));
+div.style = "height: 500px;";
+
+const map1 = new mapboxgl.Map({
+  container: div,
+  accessToken: "pk.eyJ1IjoiZmVpcG93ZXIiLCJhIjoiY21hbjd5bnQ4MG93NTJsc2Z3dzdzNnRiNiJ9.942M6p7lPTB0M2wU4p7cHg", 
+  style: 'mapbox://styles/feipower/cman7dnzb01i601s3e0xua814',
+  center: [-100.3161, 25.6866], // Coordenadas de San Luis Potosí, México
+  zoom: 12
+});
+```
+
 ### 3.4. Priorización de Micro-Zonas
 
 <!-- Tabla y mapa de micro-zonas con mayor puntaje. -->
+
+```js
+const div = display(document.createElement("div"));
+div.style = "height: 500px;";
+
+const map1 = new mapboxgl.Map({
+  container: div,
+  accessToken: "pk.eyJ1IjoiZmVpcG93ZXIiLCJhIjoiY21hbjd5bnQ4MG93NTJsc2Z3dzdzNnRiNiJ9.942M6p7lPTB0M2wU4p7cHg", 
+  style: 'mapbox://styles/feipower/cman7dnzb01i601s3e0xua814',
+  center: [-100.3161, 25.6866], // Coordenadas de Monterrey, Nuevo León, México
+  zoom: 12
+});
+```
 
 ---
 
@@ -96,14 +148,6 @@ createMap(mapContainer, [], {
 - Resumen de los hallazgos más relevantes.
 - Valor agregado de la granularidad y el enfoque geoestadístico.
 - Impacto esperado para Starbucks en la ZMM.
-
----
-
-## 7. Anexos
-
-- Detalle de fuentes de datos y scripts utilizados.
-- Metodología técnica para generación de isocronas.
-- Tablas y mapas complementarios.
 
 ---
 

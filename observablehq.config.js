@@ -43,7 +43,9 @@ export default {
       name: "Subproyectos Comerciales",
       pages: [
         { name: "Plaza Comercial en Ciudad Valles", path: "./pages/03_geosmart/plazacomercial_ciudadvalles" },
-        { name: "Vocación de Terreno SLP: Bodega vs Plaza", path: "./pages/03_geosmart/vocacionterreno_sanluispotosi" }
+        { name: "Vocación de Terreno SLP: Bodega vs Plaza", path: "./pages/03_geosmart/vocacionterreno_sanluispotosi" },
+        { name: "Posibles ubicaciones de Starbucks en Monterrey", path: "./pages/03_geosmart/starbucks_mty" }
+
       ]
     },
     {
@@ -65,46 +67,6 @@ export default {
         { name: "Expansión en Tamuín", path: "./pages/03_geosmart/expansion_tamuin" }
       ]
     },
-    // {      name: "Subproyectos Residenciales",
-    //   pages: [
-    //     { name: "Vivienda en Zona Laboral - SLP", path: "/residential_slp" }
-    //   ]
-    // },
-
-    // {
-    //   name: "Subproyectos Comerciales",
-    //   pages: [
-    //     { name: "Plaza Mixta - Ciudad Valles", path: "/plaza_valles" },
-    //     { name: "Ubicaciones Starbucks - Monterrey", path: "/starbucks_mty" },
-    //     { name: "Terreno Estratégico - Tamuín", path: "/expansion_tamuin" },
-    //     { name: "Bodega vs Plaza - SLP", path: "/plaza_vs_bodega" }
-    //   ]
-    // },
-
-    // {
-    //   name: "Subproyectos de Salud",
-    //   pages: [
-    //     { name: "Hospital Privado - SLP", path: "/hospital_slp" },
-    //     { name: "Hospitales Potenciales - Querétaro", path: "/hospitales_qro" }
-    //   ]
-    // },
-
-    // {
-    //   name: "Subproyectos Logísticos",
-    //   pages: [
-    //     { name: "Centro Logístico para Mercado Libre", path: "/mercadolibre_slp" }
-    //   ]
-    // },
-
-    // {
-    //   name: "Síntesis Ejecutiva",
-    //   pages: [
-    //     { name: "Resumen Estratégico", path: "/executive_summary" },
-    //     { name: "Mapa Interactivo Final", path: "/mapa_sintesis" },
-    //     { name: "Recomendaciones por Proyecto", path: "/recommendations" },
-    //     { name: "Descargables y Anexos", path: "/downloads" }
-    //   ]
-    // },
   ],
 
   // Content to add to the head of the page, e.g. for a favicon:

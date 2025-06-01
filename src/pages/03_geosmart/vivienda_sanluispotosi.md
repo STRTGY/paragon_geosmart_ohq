@@ -30,18 +30,66 @@ El presente análisis geoestadístico tiene como objetivos específicos: (1) ide
 ### 3.1. Mapas de Densidad y Acceso a Créditos
 
 <!-- Visualización de densidad de trabajadores formales y acceso a créditos de vivienda. -->
+```js
+const div = display(document.createElement("div"));
+div.style = "height: 500px;";
+
+const map1 = new mapboxgl.Map({
+  container: div,
+  accessToken: "pk.eyJ1IjoiZmVpcG93ZXIiLCJhIjoiY21hbjd5bnQ4MG93NTJsc2Z3dzdzNnRiNiJ9.942M6p7lPTB0M2wU4p7cHg", 
+  style: 'mapbox://styles/feipower/cman7dnzb01i601s3e0xua814',
+  center: [-101.0069, 22.1565], // Coordenadas de San Luis Potosí, México
+  zoom: 12
+});
+```
 
 ### 3.2. Análisis de Conectividad y Proximidad
 
 <!-- Mapas y tablas de conectividad a centros de trabajo y escuelas. -->
+```js
+const div = display(document.createElement("div"));
+div.style = "height: 500px;";
+
+const map2 = new mapboxgl.Map({
+  container: div,
+  accessToken: "pk.eyJ1IjoiZmVpcG93ZXIiLCJhIjoiY21hbjd5bnQ4MG93NTJsc2Z3dzdzNnRiNiJ9.942M6p7lPTB0M2wU4p7cHg", 
+  style: 'mapbox://styles/feipower/cman7dnzb01i601s3e0xua814',
+  center: [-101.0069, 22.1565], // Coordenadas de San Luis Potosí, México
+  zoom: 12
+});
+```
 
 ### 3.3. Competencia y Saturación del Mercado
 
 <!-- Localización de desarrollos residenciales existentes y competencia. -->
+```js
+const div = display(document.createElement("div"));
+div.style = "height: 500px;";
+
+const map3 = new mapboxgl.Map({
+  container: div,
+  accessToken: "pk.eyJ1IjoiZmVpcG93ZXIiLCJhIjoiY21hbjd5bnQ4MG93NTJsc2Z3dzdzNnRiNiJ9.942M6p7lPTB0M2wU4p7cHg", 
+  style: 'mapbox://styles/feipower/cman7dnzb01i601s3e0xua814',
+  center: [-101.0069, 22.1565], // Coordenadas de San Luis Potosí, México
+  zoom: 12
+});
+```
 
 ### 3.4. Ranking de Zonas
 
 <!-- Tabla y mapa de zonas con mayor potencial. -->
+```js
+const div = display(document.createElement("div"));
+div.style = "height: 500px;";
+
+const map4 = new mapboxgl.Map({
+  container: div,
+  accessToken: "pk.eyJ1IjoiZmVpcG93ZXIiLCJhIjoiY21hbjd5bnQ4MG93NTJsc2Z3dzdzNnRiNiJ9.942M6p7lPTB0M2wU4p7cHg", 
+  style: 'mapbox://styles/feipower/cman7dnzb01i601s3e0xua814',
+  center: [-101.0069, 22.1565], // Coordenadas de San Luis Potosí, México
+  zoom: 12
+});
+```
 
 ---
 
@@ -66,14 +114,6 @@ El presente análisis geoestadístico tiene como objetivos específicos: (1) ide
 - Resumen de los hallazgos más relevantes.
 - Valor agregado del enfoque geoestadístico.
 - Impacto esperado para el sector vivienda en San Luis Potosí.
-
----
-
-## 7. Anexos
-
-- Detalle de fuentes de datos y scripts utilizados.
-- Metodología técnica para generación de indicadores.
-- Tablas y mapas complementarios.
 
 ---
 

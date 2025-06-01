@@ -31,18 +31,67 @@ El presente análisis geoestadístico tiene como objetivos específicos: (1) est
 
 <!-- Visualización de demanda insatisfecha y accesibilidad a servicios hospitalarios. -->
 
+```js
+const div = display(document.createElement("div"));
+div.style = "height: 500px;";
+
+const map1 = new mapboxgl.Map({
+  container: div,
+  accessToken: "pk.eyJ1IjoiZmVpcG93ZXIiLCJhIjoiY21hbjd5bnQ4MG93NTJsc2Z3dzdzNnRiNiJ9.942M6p7lPTB0M2wU4p7cHg", 
+  style: 'mapbox://styles/feipower/cman7dnzb01i601s3e0xua814',
+  center: [-99.0062, 21.9874], // Coordenadas de Ciudad Valles, San Luis Potosí, México
+  zoom: 12
+});
+```
+
 ### 3.2. Análisis de Competencia y Saturación
 
 <!-- Mapas y tablas de hospitales existentes y competencia. -->
 
+```js
+const div = display(document.createElement("div"));
+div.style = "height: 500px;";
+
+const map2 = new mapboxgl.Map({
+  container: div,
+  accessToken: "pk.eyJ1IjoiZmVpcG93ZXIiLCJhIjoiY21hbjd5bnQ4MG93NTJsc2Z3dzdzNnRiNiJ9.942M6p7lPTB0M2wU4p7cHg", 
+  style: 'mapbox://styles/feipower/cman7dnzb01i601s3e0xua814',
+  center: [-99.0062, 21.9874], // Coordenadas de Tamuín, San Luis Potosí, México
+  zoom: 12
+});
+```
+
 ### 3.3. Perfil Socioeconómico
 
 <!-- Caracterización de la población objetivo y su capacidad de pago. -->
+```js
+const div = display(document.createElement("div"));
+div.style = "height: 500px;";
+
+const map3 = new mapboxgl.Map({
+  container: div,
+  accessToken: "pk.eyJ1IjoiZmVpcG93ZXIiLCJhIjoiY21hbjd5bnQ4MG93NTJsc2Z3dzdzNnRiNiJ9.942M6p7lPTB0M2wU4p7cHg", 
+  style: 'mapbox://styles/feipower/cman7dnzb01i601s3e0xua814',
+  center: [-99.0062, 21.9874], // Coordenadas de Tamuín, San Luis Potosí, México
+  zoom: 12
+});
+```
 
 ### 3.4. Priorización de Ubicaciones
 
 <!-- Tabla y mapa de ubicaciones con mayor potencial. -->
+```js
+const div = display(document.createElement("div"));
+div.style = "height: 500px;";
 
+const map4 = new mapboxgl.Map({
+  container: div,
+  accessToken: "pk.eyJ1IjoiZmVpcG93ZXIiLCJhIjoiY21hbjd5bnQ4MG93NTJsc2Z3dzdzNnRiNiJ9.942M6p7lPTB0M2wU4p7cHg", 
+  style: 'mapbox://styles/feipower/cman7dnzb01i601s3e0xua814',
+  center: [-99.0062, 21.9874], // Coordenadas de Tamuín, San Luis Potosí, México
+  zoom: 12
+});
+```
 ---
 
 ## 4. Discusión
@@ -66,14 +115,6 @@ El presente análisis geoestadístico tiene como objetivos específicos: (1) est
 - Resumen de los hallazgos más relevantes.
 - Valor agregado del enfoque geoestadístico.
 - Impacto esperado para el sector hospitalario en Ciudad Valles.
-
----
-
-## 7. Anexos
-
-- Detalle de fuentes de datos y scripts utilizados.
-- Metodología técnica para generación de indicadores.
-- Tablas y mapas complementarios.
 
 ---
 

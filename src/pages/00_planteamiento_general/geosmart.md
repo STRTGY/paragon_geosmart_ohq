@@ -7,6 +7,7 @@ keywords: geointeligencia, framework, STRTGY, EVA, metodología, análisis terri
 
 ```js
 import mermaid from "npm:@observablehq/mermaid";
+@watergis/mapbox-gl-legend
 ```
 # Geosmart by STRTGY: Metodología de Análisis
 
