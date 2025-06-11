@@ -1,0 +1,91 @@
+{
+  "proyecto": "Análisis de Cobertura Hospitalaria - Querétaro",
+  "fecha_generacion": "2025-06-10 10:23:58",
+  "archivos_generados": {
+    "area_metropolitana": {
+      "archivo": "queretaro_area_metropolitana.geojson",
+      "descripcion": "Área metropolitana definida por buffer de 5km desde centroides hospitalarios",
+      "geometria": "Polygon",
+      "registros": 1
+    },
+    "cobertura_hospitalaria": {
+      "archivo": "queretaro_cobertura_hospitalaria_5min.geojson",
+      "descripcion": "Polígono de cobertura hospitalaria (unión de isócronas de 5 minutos)",
+      "geometria": "Polygon",
+      "registros": 1
+    },
+    "agebs_metropolitanos": {
+      "archivo": "queretaro_agebs_metropolitanos_cobertura.geojson",
+      "descripcion": "AGEBs del área metropolitana con análisis de cobertura y NSE",
+      "geometria": "Polygon",
+      "registros": 372,
+      "campos_clave": [
+        "coverage_status",
+        "nse",
+        "priority",
+        "population"
+      ]
+    },
+    "agebs_sin_cobertura": {
+      "archivo": "queretaro_agebs_sin_cobertura.geojson",
+      "descripcion": "AGEBs sin cobertura hospitalaria ordenados por población",
+      "geometria": "Polygon",
+      "registros": 46,
+      "campos_clave": [
+        "rank_poblacion",
+        "es_top_10",
+        "population",
+        "nse"
+      ]
+    },
+    "top10_prioritarios": {
+      "archivo": "queretaro_top10_agebs_prioritarios.geojson",
+      "descripcion": "Top 10 AGEBs prioritarios sin cobertura (mayor población)",
+      "geometria": "Polygon",
+      "registros": 10,
+      "campos_clave": [
+        "ranking",
+        "population",
+        "nse"
+      ]
+    },
+    "isocronas_hospitalarias": {
+      "archivo": "queretaro_isocronas_hospitalarias.geojson",
+      "descripcion": "Isócronas de accesibilidad hospitalaria originales",
+      "geometria": "Polygon",
+      "registros": 1020,
+      "campos_clave": [
+        "rango_minutos"
+      ]
+    }
+  },
+  "estadisticas_resumen": {
+    "poblacion_total_metropolitana": 845380,
+    "poblacion_sin_cobertura": 98770,
+    "porcentaje_sin_cobertura": 11.68,
+    "agebs_total_metropolitanos": 372,
+    "agebs_sin_cobertura": 46,
+    "agebs_con_cobertura": 326
+  },
+  "configuracion_mapbox": {
+    "centro_mapa": {
+      "latitud": 20.64158099392325,
+      "longitud": -100.41539579704302
+    },
+    "zoom_inicial": 11,
+    "colores_nse": {
+      "A/B": "#2E8B57",
+      "C+": "#32CD32",
+      "C": "#FFD700",
+      "C-": "#FF8C00",
+      "D+": "#FF4500",
+      "D": "#DC143C",
+      "E": "#8B0000"
+    },
+    "colores_cobertura": {
+      "Con_Cobertura": "#3186cc",
+      "Sin_Cobertura": "#ff4444",
+      "Alta_Prioridad": "#ff0000"
+    }
+  }
+}

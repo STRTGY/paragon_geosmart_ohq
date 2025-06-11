@@ -29,6 +29,10 @@ El presente análisis geoestadístico tiene como objetivos específicos: (1) ide
 
 ### 3.1. Mapas de Densidad y Acceso a Créditos
 
+La densidad de trabajadores formales y el acceso a créditos de vivienda son indicadores fundamentales para identificar las zonas con mayor potencial de demanda residencial. Este mapa visualiza la concentración de población económicamente activa con capacidad de adquisición, combinando datos del IMSS sobre trabajadores registrados y estadísticas de INFONAVIT sobre derechohabientes con posibilidad de obtener créditos hipotecarios.
+
+Las zonas con mayor densidad de color representan áreas donde existe una concentración significativa de demanda potencial, lo que las convierte en ubicaciones estratégicas para el desarrollo de proyectos habitacionales orientados al segmento medio y medio-alto.
+
 <!-- Visualización de densidad de trabajadores formales y acceso a créditos de vivienda. -->
 ```js
 const div = display(document.createElement("div"));
@@ -44,6 +48,10 @@ const map1 = new mapboxgl.Map({
 ```
 
 ### 3.2. Análisis de Conectividad y Proximidad
+
+La conectividad urbana y la proximidad a centros de trabajo y educativos son factores críticos en la decisión de compra de vivienda. Este análisis espacial muestra las isócronas de tiempo de traslado hacia los principales polos de empleo, universidades y escuelas de la ciudad, identificando las zonas mejor conectadas mediante transporte público y vialidades principales.
+
+El mapa integra datos de movilidad de Google Maps, ubicación de centros de trabajo del DENUE y localización de instituciones educativas, permitiendo identificar las áreas con mejor accesibilidad y menor tiempo de desplazamiento, características altamente valoradas por los compradores de vivienda.
 
 <!-- Mapas y tablas de conectividad a centros de trabajo y escuelas. -->
 ```js
@@ -61,6 +69,10 @@ const map2 = new mapboxgl.Map({
 
 ### 3.3. Competencia y Saturación del Mercado
 
+El análisis de competencia permite identificar zonas con oportunidades de desarrollo al evaluar la oferta existente y el nivel de saturación del mercado. Este mapa muestra la ubicación de desarrollos residenciales actuales, su tipología (interés social, medio, residencial) y el inventario disponible, permitiendo identificar nichos de mercado desatendidos.
+
+La información se complementa con datos de velocidad de venta y absorción del mercado, proporcionando una visión integral de las dinámicas competitivas en cada zona. Las áreas con menor densidad de desarrollos pero alta demanda potencial representan las mejores oportunidades de inversión.
+
 <!-- Localización de desarrollos residenciales existentes y competencia. -->
 ```js
 const div = display(document.createElement("div"));
@@ -76,6 +88,10 @@ const map3 = new mapboxgl.Map({
 ```
 
 ### 3.4. Ranking de Zonas
+
+El ranking integral de zonas combina todos los indicadores analizados mediante un modelo de evaluación multicriterio que pondera densidad de demanda, conectividad, competencia y potencial de crecimiento. Este mapa de calor muestra las zonas ordenadas según su potencial para el desarrollo de vivienda, facilitando la toma de decisiones estratégicas.
+
+Las zonas se clasifican en cinco categorías (muy alto, alto, medio, bajo, muy bajo potencial) considerando factores como: densidad de trabajadores formales, acceso a créditos, tiempo de traslado a centros de trabajo, proximidad a servicios, nivel de competencia y tendencias de crecimiento urbano.
 
 <!-- Tabla y mapa de zonas con mayor potencial. -->
 ```js

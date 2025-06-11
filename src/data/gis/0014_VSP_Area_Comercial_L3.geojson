@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "0014_VSP_Area_Comercial_L3",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "Name": "Área comercial VSP L3", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": 1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -99.026931680636977, 22.01932985885546, 0.0 ], [ -99.027149428112551, 22.019347805457201, 0.0 ], [ -99.027178779670649, 22.019150752018881, 0.0 ], [ -99.026946517302051, 22.019149858982821, 0.0 ], [ -99.026931680636977, 22.01932985885546, 0.0 ] ] ] } }
-]
-}

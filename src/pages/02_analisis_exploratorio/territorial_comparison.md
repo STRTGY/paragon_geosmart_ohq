@@ -1,6 +1,6 @@
 ---
 title: Comparativa Territorial
-toc: false
+toc: true
 index: true
 keywords: comparativa, ciudades, benchmarking territorial
 ---
@@ -13,7 +13,7 @@ Esta sección presenta una evaluación comparativa exhaustiva entre zonas y ciud
 
 ## Metodología e Indicadores Evaluados
 
-Para realizar una comparación robusta, se han evaluado los siguientes indicadores:
+Para realizar una comparación robustaS, se han evaluado los siguientes indicadores:
 
 ### Demografía:
 - Población total y su crecimiento histórico.

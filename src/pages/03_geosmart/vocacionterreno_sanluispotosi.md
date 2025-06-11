@@ -30,6 +30,9 @@ El presente análisis geoestadístico tiene como objetivos específicos: (1) com
 ### 3.1. Mapas de Demanda y Conectividad
 
 <!-- Visualización de demanda y conectividad para ambos usos. -->
+
+El análisis de demanda y conectividad constituye un factor crítico para determinar la viabilidad de cada vocación del terreno. Para la bodega industrial, se evalúa la proximidad a corredores logísticos principales, acceso a vías de comunicación estratégicas y conectividad con parques industriales existentes. En el caso de la plaza comercial, se examina la densidad poblacional, flujos peatonales y vehiculares, así como la accesibilidad desde zonas residenciales y comerciales. Los siguientes mapas visualizan estos indicadores clave, permitiendo identificar las ventajas competitivas de cada uso potencial del terreno.
+
 ```js
 const div = display(document.createElement("div"));
 div.style = "height: 500px;";
@@ -43,10 +46,12 @@ const map1 = new mapboxgl.Map({
 });
 ```
 
-
 ### 3.2. Análisis de Competencia y Saturación
 
 <!-- Mapas y tablas de competencia para bodega industrial y plaza comercial. -->
+
+La evaluación de competencia y saturación del mercado permite identificar oportunidades y riesgos asociados a cada desarrollo propuesto. Este análisis mapea la distribución espacial de bodegas industriales existentes y su capacidad instalada, así como la ubicación y tamaño de plazas comerciales en la zona. Se consideran radios de influencia diferenciados: 5-10 km para bodegas industriales debido a su naturaleza regional, y 1-3 km para plazas comerciales dado su carácter local. La visualización siguiente muestra la densidad competitiva actual y las áreas de oportunidad no saturadas, fundamentales para la toma de decisiones estratégicas.
+
 ```js
 const div = display(document.createElement("div"));
 div.style = "height: 500px;";
@@ -63,6 +68,9 @@ const map2 = new mapboxgl.Map({
 ### 3.3. Evaluación de Impacto Económico y Social
 
 <!-- Análisis del impacto económico y social de cada opción. -->
+
+El impacto económico y social representa una dimensión fundamental en la selección de la vocación del terreno. Para la bodega industrial, se analiza la generación potencial de empleos directos e indirectos, el impulso a cadenas de suministro locales y la derrama económica esperada. En contraste, la plaza comercial se evalúa en términos de empleos en el sector servicios, activación económica del entorno inmediato y mejora en la calidad de vida de los residentes cercanos. El siguiente mapa integra indicadores socioeconómicos clave como nivel de ingreso, densidad de empleo y actividad económica por sector, proporcionando una visión integral del impacto potencial de cada desarrollo.
+
 ```js
 const div = display(document.createElement("div"));
 div.style = "height: 500px;";
@@ -79,6 +87,9 @@ const map3 = new mapboxgl.Map({
 ### 3.4. Priorización y Recomendación de Uso
 
 <!-- Tabla y mapa de recomendación de uso óptimo. -->
+
+La síntesis del análisis multicriterio culmina en una recomendación fundamentada sobre la vocación óptima del terreno. Esta evaluación pondera los factores de demanda, conectividad, competencia e impacto socioeconómico mediante un modelo de decisión espacial. El mapa de priorización siguiente visualiza las zonas más favorables para cada uso, considerando restricciones normativas, potencial de mercado y alineación con el desarrollo urbano planificado. La recomendación final se basa en la maximización del valor presente neto del proyecto, el retorno de inversión esperado y la contribución al desarrollo sustentable de San Luis Potosí.
+
 ```js
 const div = display(document.createElement("div"));
 div.style = "height: 500px;";
