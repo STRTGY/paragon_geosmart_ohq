@@ -17,7 +17,44 @@ const cdvalles_farmacias = FileAttachment("../../data/gis/Farmacias_CV.geojson")
 
 ## 1. Resumen Ejecutivo
 
-<!-- Breve descripción del objetivo, hallazgos principales y recomendaciones clave. -->
+**Objetivo del Análisis**
+
+El presente estudio geoestadístico evalúa el potencial del mercado residencial en Ciudad Valles, San Luis Potosí, con enfoque específico en el desarrollo **Villas de San Pedro**, ubicado en el sector norte de la ciudad. El análisis integra datos de nivel socioeconómico, distribución de servicios básicos y características del entorno urbano para generar recomendaciones estratégicas de desarrollo y comercialización.
+
+**Hallazgos Principales**
+
+1. **Alineación Socioeconómica**: Villas de San Pedro se localiza en una zona con predominio de niveles socioeconómicos C y C-, correspondiendo al perfil natural del área circundante y validando la orientación del desarrollo hacia este segmento de mercado.
+
+2. **Carencia Crítica de Servicios**: El análisis georreferenciado revela una **ausencia total de servicios básicos** en un radio de 2 km del desarrollo, incluyendo:
+   - Servicios financieros (bancos, cajeros automáticos)
+   - Instituciones educativas (escuelas de todos los niveles)
+   - Servicios de salud (farmacias, consultorios médicos)
+   - Centros religiosos y establecimientos comerciales
+
+3. **Oportunidad de Mercado Virgen**: La falta de competencia en servicios presenta una ventana estratégica para diferenciación y creación de valor agregado dentro del desarrollo.
+
+4. **Desafíos de Conectividad**: Los servicios más cercanos se encuentran en el centro de Ciudad Valles (>3.5 km), generando dependencia de transporte y posibles barreras para la experiencia del residente.
+
+**Recomendaciones Clave**
+
+**Estrategias de Mejora Inmediata:**
+- **Incorporación de servicios básicos** dentro del desarrollo (minisuper, farmacia, cajero automático)
+- **Desarrollo de centro comunitario** que concentre servicios esenciales
+- **Implementación de transporte colectivo** hacia zonas de servicios consolidadas
+
+**Posicionamiento Comercial:**
+- **Comunicación transparente** sobre distancias a servicios básicos
+- **Enfoque en potencial de valorización** por desarrollo urbano futuro
+- **Segmentación hacia compradores** que priorizan precio sobre ubicación céntrica
+
+**Alianzas Estratégicas:**
+- **Negociación con instituciones educativas** para establecer escuela satélite
+- **Partnerships con cadenas comerciales** para garantizar servicios post-venta
+- **Colaboración con proveedores de servicios** para establecer sucursales
+
+**Impacto Esperado**
+
+La implementación de estas recomendaciones puede posicionar a Villas de San Pedro como un **desarrollo integral único** en la zona norte de Ciudad Valles, diferenciándose por ofrecer servicios básicos integrados y mejorando significativamente la experiencia del residente. El enfoque geoestadístico proporciona una base objetiva para la toma de decisiones estratégicas y la optimización de la inversión en mejoras del desarrollo.
 
 ---
 
@@ -511,7 +548,7 @@ const map4 = new mapboxgl.Map({
 
 ### 4.1. Interpretación de Resultados para Villas San Pedro
 
-El análisis geoestadístico del desarrollo residencial **Villas San Pedro** muestra que se encuentra ubicado en una zona con niveles socioeconómicos predominantemente C y C-, según los datos de segmentación disponibles. El desarrollo presenta las siguientes características según el mapeo realizado:
+El análisis geoestadístico del desarrollo residencial **Villas de San Pedro** muestra que se encuentra ubicado en una zona con niveles socioeconómicos predominantemente C y C-, según los datos de segmentación disponibles. El desarrollo presenta las siguientes características según el mapeo realizado:
 
 **Características del Entorno de Villas San Pedro:**
 - **Ausencia de servicios básicos cercanos**: El mapeo confirma la falta de bancos, farmacias, escuelas y centros religiosos en la zona inmediata del desarrollo

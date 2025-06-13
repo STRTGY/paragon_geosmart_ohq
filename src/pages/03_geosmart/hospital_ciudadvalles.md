@@ -609,20 +609,6 @@ function updateNseLayersVisibility() {
   }
 }
 ```
-
-```js
-// Reactivamente actualizar la visibilidad de las capas cuando cambien los checkboxes
-{
-  if (map3 && map3.getLayer && map3.getLayer('cdvalles-nse-layer')) {
-    map3.setLayoutProperty(
-      'cdvalles-nse-layer',
-      'visibility',
-      showNseLayers.includes("nse") ? 'visible' : 'none'
-    );
-  }
-}
-```
-
 ---
 
 ## 4. Discusión
