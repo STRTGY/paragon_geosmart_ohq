@@ -509,25 +509,122 @@ const map4 = new mapboxgl.Map({
 
 ## 4. Discusión
 
-- Interpretación de los resultados en el contexto del mercado residencial.
-- Implicaciones para la estrategia de desarrollo y comercialización de vivienda.
-- Limitaciones del análisis y consideraciones éticas.
+### 4.1. Interpretación de Resultados para Villas San Pedro
+
+El análisis geoestadístico del desarrollo residencial **Villas San Pedro** muestra que se encuentra ubicado en una zona con niveles socioeconómicos predominantemente C y C-, según los datos de segmentación disponibles. El desarrollo presenta las siguientes características según el mapeo realizado:
+
+**Características del Entorno de Villas San Pedro:**
+- **Ausencia de servicios básicos cercanos**: El mapeo confirma la falta de bancos, farmacias, escuelas y centros religiosos en la zona inmediata del desarrollo
+- **Nivel socioeconómico del área**: Los datos muestran concentración de NSE C y C- en los polígonos circundantes al desarrollo
+- **Ubicación en zona de expansión**: Villas San Pedro se sitúa en el sector norte de Ciudad Valles
+
+**Desafíos Identificados para los Residentes:**
+- **Distancia a servicios bancarios**: Los servicios financieros más cercanos se encuentran en el centro de Ciudad Valles
+- **Acceso a educación**: No se identifican centros educativos en la zona inmediata según el mapeo
+- **Servicios comerciales limitados**: Presencia mínima de establecimientos comerciales en el área del desarrollo
+
+### 4.2. Implicaciones para el Desarrollo Villas San Pedro
+
+**Situación Actual del Desarrollo:**
+Villas San Pedro se encuentra en una zona con predominio de niveles socioeconómicos C y C- según el análisis de segmentación. La ausencia de servicios básicos identificada en el mapeo presenta desafíos operativos y oportunidades de mejora para el desarrollo existente.
+
+**Aspectos Críticos Identificados:**
+- **Impacto en la experiencia del residente**: La carencia de servicios básicos puede afectar la satisfacción y retención de residentes
+- **Oportunidad de diferenciación**: La ausencia de competencia en servicios presenta una ventana para agregar valor al desarrollo
+- **Necesidad de estrategias complementarias**: Se requieren soluciones para mitigar las limitaciones de servicios identificadas
 
 ---
 
 ## 5. Recomendaciones
 
-- Zonas sugeridas para nuevos desarrollos residenciales.
-- Estrategias diferenciadas según perfil de comprador y zona.
-- Siguientes pasos para validación en campo y toma de decisión.
+### 5.1. Estrategias de Mejora para Villas San Pedro
+
+**Consideración Principal: Optimización del Desarrollo Existente**
+
+Basado en la ausencia de servicios identificada en el análisis, se sugieren estrategias para mejorar la propuesta de valor de Villas San Pedro y mitigar las limitaciones identificadas.
+
+**Estrategias a Considerar:**
+
+1. **Incorporación de Servicios Básicos**
+   - Evaluación de espacios disponibles dentro del desarrollo para servicios esenciales
+   - Análisis de factibilidad para instalar minisuper, farmacia o cajero automático
+
+2. **Mejora de Conectividad y Transporte**
+   - Evaluación de servicios de transporte hacia zonas de servicios
+   - Análisis de rutas de transporte público existentes
+   - Consideración de servicios de transporte privado para residentes
+
+3. **Desarrollo de Amenidades Internas**
+   - Maximización del uso de áreas comunes existentes
+   - Implementación de servicios que compensen las carencias externas
+   - Creación de espacios multifuncionales para la comunidad
+
+### 5.2. Estrategia de Comercialización para Villas San Pedro
+
+**Posicionamiento Basado en el Análisis:**
+
+El análisis de NSE muestra que Villas San Pedro se encuentra en una zona con predominio de niveles C y C-, lo que sugiere alineación con el mercado objetivo natural del área.
+
+**Consideraciones para la Comercialización:**
+
+**Enfoque en Ventajas Competitivas:**
+- Destacar la ubicación en zona de crecimiento del norte de Ciudad Valles
+- Enfatizar el potencial de valorización por desarrollo urbano futuro
+- Resaltar características únicas del desarrollo frente a la competencia
+
+**Manejo de Limitaciones Identificadas:**
+- Comunicación transparente sobre distancias a servicios básicos
+- Destacar planes de mejora o servicios complementarios a implementar
+- Enfoque en el perfil de comprador que valore tranquilidad vs. cercanía a servicios
+
+**Segmentación Sugerida:**
+- Validar aceptación del mercado NSE C y C- identificado en la zona
+- Evaluar atractivo para compradores que priorizan precio sobre ubicación céntrica
+- Considerar segmento de inversionistas que busquen potencial de valorización
 
 ---
 
 ## 6. Conclusiones
 
-- Resumen de los hallazgos más relevantes.
-- Valor agregado del enfoque geoestadístico.
-- Impacto esperado para el sector residencial en Ciudad Valles.
+### 6.1. Hallazgos Más Relevantes
+
+El análisis geoestadístico de **Villas San Pedro** revela características específicas del desarrollo y su entorno que requieren atención estratégica:
+
+1. **Alineación con el Mercado Local**: El desarrollo se encuentra en una zona con predominio de niveles socioeconómicos C y C-, lo que sugiere correspondencia con el perfil socioeconómico del área circundante.
+
+2. **Carencia de Servicios Básicos**: El mapeo confirma la ausencia de bancos, farmacias, escuelas y centros religiosos en la zona inmediata del desarrollo, lo que representa un desafío para la experiencia de los residentes.
+
+3. **Oportunidad de Diferenciación**: La falta de servicios en el área presenta una oportunidad para que Villas San Pedro se diferencie mediante la incorporación de servicios básicos o amenidades compensatorias.
+
+### 6.2. Valor Agregado del Enfoque Geoestadístico
+
+La metodología geoestadística aplicada ha proporcionado información específica y georreferenciada para la evaluación de Villas San Pedro:
+
+**Identificación Precisa de Carencias**: El mapeo georreferenciado permite identificar con exactitud la ausencia de servicios específicos en el área del desarrollo, proporcionando datos concretos para la toma de decisiones.
+
+**Análisis del Contexto Socioeconómico**: La segmentación por NSE del área circundante proporciona información sobre la alineación del desarrollo con el perfil socioeconómico local.
+
+**Base para Estrategias de Mejora**: Los datos espaciales proporcionan fundamento objetivo para evaluar opciones de mejora del desarrollo y estrategias de diferenciación.
+
+**Información para Comercialización**: El análisis proporciona datos específicos sobre el entorno que pueden utilizarse para ajustar estrategias de marketing y comunicación con prospectos.
+
+### 6.3. Impacto Esperado para Villas San Pedro
+
+**Oportunidades de Mejora Identificadas:**
+- **Diferenciación competitiva**: La incorporación de servicios básicos puede posicionar a Villas San Pedro como un desarrollo integral único en la zona
+- **Mejora en satisfacción de residentes**: Abordar las carencias identificadas puede incrementar la retención y recomendación del desarrollo
+- **Potencial de valorización**: Las mejoras implementadas pueden contribuir a la valorización de las propiedades existentes
+
+**Consideraciones Operativas:**
+- **Evaluación de espacios disponibles**: Análisis de áreas comunes o lotes disponibles para servicios complementarios
+- **Análisis de inversión requerida**: Evaluación de costos vs. beneficios de implementar servicios básicos
+- **Impacto en la comunidad existente**: Consideración del efecto de las mejoras en los residentes actuales
+
+**Factores Críticos para el Éxito:**
+1. **Validación con residentes actuales** sobre necesidades y prioridades de servicios
+2. **Análisis de factibilidad económica** de cada servicio propuesto
+3. **Estrategia de implementación gradual** para minimizar disrupciones
+4. **Comunicación efectiva** de mejoras a prospectos y residentes actuales
 
 ---
 
