@@ -43,6 +43,7 @@ export default {
       name: "Subproyectos Comerciales",
       pages: [
         { name: "Punto Novel: Plaza Comercial en Ciudad Valles", path: "./pages/03_geosmart/plazacomercial_ciudadvalles" },
+        { name: "Central de Abastos en Ciudad Valles", path: "./pages/03_geosmart/cdvalles_centralabastos" },
         // { name: "Vocación de Terreno SLP: Bodega vs Plaza", path: "./pages/03_geosmart/vocacionterreno_sanluispotosi" },
         { name: "Posibles ubicaciones para Starbucks en Monterrey", path: "./pages/03_geosmart/starbucks_mty" }
       ]

@@ -1,0 +1,3672 @@
+{
+  "executive_summary": {
+    "overview": {
+      "total_businesses_analyzed": 4989,
+      "analysis_date": "2025-07-02 13:17:39",
+      "data_coverage": {
+        "earliest_record": "2010-07-01T00:00:00",
+        "latest_record": "2025-04-01T00:00:00"
+      }
+    },
+    "key_findings": {
+      "market_structure": {
+        "dominant_sector": "Comercio al por menor",
+        "business_diversity_index": 2.412,
+        "unique_activities": 31,
+        "market_concentration": {
+          "cr4": 63.4,
+          "interpretation": "Mercado altamente concentrado"
+        }
+      },
+      "legal_structure": {
+        "persona_moral_rate": 3.5,
+        "personas_morales": 174,
+        "personas_fisicas": 4815,
+        "interpretation": "Predominan personas físicas - Ecosistema empresarial en desarrollo"
+      },
+      "temporal_dynamics": {
+        "recent_trend": "increasing",
+        "peak_registration_year": 2024,
+        "average_annual_registrations": 356,
+        "market_maturity": "Mercado en crecimiento"
+      },
+      "geographic_distribution": {
+        "top_commercial_corridor": "CALLE ABASOLO",
+        "corridor_diversity": 20,
+        "geographic_concentration": "Distribuida"
+      },
+      "market_opportunities": {
+        "top_undersaturated_activity": "Comercio al por menor en supermercados",
+        "emerging_opportunities_count": 5,
+        "underserved_areas_count": 5,
+        "niche_opportunities_count": 4
+      }
+    },
+    "strategic_insights": [
+      "Alta proporción de personas físicas sugiere oportunidades para servicios de apoyo empresarial y estructuración corporativa.",
+      "El mercado está dominado por pocas actividades principales, sugiriendo oportunidades en nichos menos saturados."
+    ]
+  },
+  "methodology": {
+    "data_source": "DENUE (Directorio Estadístico Nacional de Unidades Económicas) - INEGI",
+    "analysis_framework": "STRTGY Geosmart Business Intelligence Platform",
+    "analysis_modules": [
+      "Core Business Analysis",
+      "Commercial Corridor Analysis",
+      "Market Opportunity Analysis",
+      "Data Visualization"
+    ],
+    "data_quality": {
+      "completeness": {
+        "business_names": 100.0,
+        "activity_codes": 100.0,
+        "incorporation_dates": 100.0
+      },
+      "temporal_coverage": {
+        "years_span": 15,
+        "data_freshness": "Recent"
+      },
+      "geographic_coverage": {
+        "has_coordinates": "True",
+        "postal_codes_available": "True"
+      }
+    }
+  },
+  "core_analysis": {
+    "basic_statistics": {
+      "total_businesses": 4989,
+      "unique_business_names": 3978,
+      "businesses_with_legal_name": 174,
+      "unique_scian_codes": 31,
+      "unique_activities": 31,
+      "date_range": {
+        "earliest": "2010-07-01T00:00:00",
+        "latest": "2025-04-01T00:00:00"
+      },
+      "sectors_count": 3,
+      "subsectors_count": 4
+    },
+    "legal_structure_analysis": {
+      "personas_morales": 174,
+      "personas_fisicas": 4815,
+      "persona_moral_rate": 3.487672880336741,
+      "persona_fisica_rate": 96.51232711966325,
+      "by_sector": [
+        {
+          "total_businesses": 45,
+          "personas_morales": 27,
+          "persona_moral_rate": 0.6,
+          "persona_moral_percentage": 60.0
+        },
+        {
+          "total_businesses": 2526,
+          "personas_morales": 123,
+          "persona_moral_rate": 0.049,
+          "persona_moral_percentage": 4.9
+        },
+        {
+          "total_businesses": 2418,
+          "personas_morales": 24,
+          "persona_moral_rate": 0.01,
+          "persona_moral_percentage": 1.0
+        }
+      ]
+    },
+    "temporal_trends": {
+      "annual_registrations": {
+        "2010": 1180,
+        "2012": 2,
+        "2013": 7,
+        "2014": 634,
+        "2016": 5,
+        "2017": 8,
+        "2018": 12,
+        "2019": 973,
+        "2020": 18,
+        "2021": 43,
+        "2022": 2,
+        "2023": 9,
+        "2024": 2042,
+        "2025": 54
+      },
+      "annual_growth_rates": {
+        "2012": -99.83050847457628,
+        "2013": 250.0,
+        "2014": 8957.142857142857,
+        "2016": -99.21135646687698,
+        "2017": 60.00000000000001,
+        "2018": 50.0,
+        "2019": 8008.333333333333,
+        "2020": -98.15005138746146,
+        "2021": 138.88888888888889,
+        "2022": -95.34883720930233,
+        "2023": 350.0,
+        "2024": 22588.888888888887,
+        "2025": -97.35553379040157
+      },
+      "peak_registration_year": 2024,
+      "average_annual_registrations": 356.35714285714283,
+      "total_years_span": 14,
+      "recent_trend_slope": 206.20000000000007,
+      "recent_trend_direction": "increasing",
+      "monthly_patterns": {
+        "1": 4,
+        "3": 5,
+        "4": 56,
+        "5": 53,
+        "6": 2,
+        "7": 1187,
+        "10": 1,
+        "11": 3047,
+        "12": 634
+      },
+      "peak_registration_month": 11
+    },
+    "sector_analysis": {
+      "sector_distribution": {
+        "Comercio al por menor": 2526,
+        "Servicios de alojamiento temporal y de preparación de alimentos": 2418,
+        "Comercio al por mayor": 45
+      },
+      "sector_percentages": {
+        "Comercio al por menor": 50.63,
+        "Servicios de alojamiento temporal y de preparación de alimentos": 48.47,
+        "Comercio al por mayor": 0.9
+      },
+      "dominant_sector": "Comercio al por menor",
+      "total_sectors": 3,
+      "top_activities_by_sector": {
+        "Comercio al por mayor": {
+          "Comercio al por mayor de abarrotes": 15,
+          "Comercio al por mayor de carnes rojas": 6,
+          "Comercio al por mayor de otros alimentos": 5,
+          "Comercio al por mayor de botanas y frituras": 5,
+          "Comercio al por mayor de frutas y verduras frescas": 3
+        },
+        "Comercio al por menor": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 1596,
+          "Comercio al por menor de frutas y verduras frescas": 221,
+          "Comercio al por menor de carnes rojas": 202,
+          "Comercio al por menor en minisupers": 91,
+          "Comercio al por menor de carne de aves": 81
+        },
+        "Servicios de alojamiento temporal y de preparación de alimentos": {
+          "Restaurantes con servicio de preparación de antojitos": 696,
+          "Restaurantes con servicio de preparación de tacos y tortas": 580,
+          "Servicios de preparación de otros alimentos para consumo inmediato": 291,
+          "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 212,
+          "Restaurantes con servicio de preparación de pizzas, hamburguesas, hot dogs y pollos rostizados para llevar": 211
+        }
+      },
+      "most_diverse_activities": 31
+    },
+    "cluster_analysis": {
+      "top_10_activities": {
+        "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 1596,
+        "Restaurantes con servicio de preparación de antojitos": 696,
+        "Restaurantes con servicio de preparación de tacos y tortas": 580,
+        "Servicios de preparación de otros alimentos para consumo inmediato": 291,
+        "Comercio al por menor de frutas y verduras frescas": 221,
+        "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 212,
+        "Restaurantes con servicio de preparación de pizzas, hamburguesas, hot dogs y pollos rostizados para llevar": 211,
+        "Comercio al por menor de carnes rojas": 202,
+        "Cafeterías, fuentes de sodas, neverías, refresquerías y similares": 178,
+        "Restaurantes que preparan otro tipo de alimentos para llevar": 144
+      },
+      "top_10_scian_codes": {
+        "461110": 1596,
+        "722513": 696,
+        "722514": 580,
+        "722519": 291,
+        "461130": 221,
+        "722511": 212,
+        "722517": 211,
+        "461121": 202,
+        "722515": 178,
+        "722518": 144
+      },
+      "concentration_ratios": {
+        "cr4_activities": 63.39947885347765,
+        "cr8_activities": 80.35678492683904
+      },
+      "market_structure": {
+        "unique_activities": 2,
+        "common_activities": 22,
+        "total_activity_types": 31
+      },
+      "diversity_index": 2.4119439304718857
+    },
+    "report_metadata": {
+      "generated_at": "2025-07-02T13:17:39.895695",
+      "total_records_analyzed": 4989,
+      "enhanced_columns_used": true,
+      "analysis_version": "2.1"
+    }
+  },
+  "corridor_analysis": {
+    "corridor_distribution": {
+      "vialidad_types": {
+        "CALLE": 4062,
+        "AVENIDA": 423,
+        "BOULEVARD": 135,
+        "PRIVADA": 105,
+        "CARRETERA": 91,
+        "ANDADOR": 60,
+        "CALLEJON": 33,
+        "OTRO(ESPECIFIQUE)": 29,
+        "PROLONGACION": 26,
+        "AMPLIACION": 14,
+        "CERRADA": 5,
+        "CIRCUITO": 3,
+        "PERIFERICO": 1,
+        "EJE VIAL": 1,
+        "PEATONAL": 1
+      },
+      "businesses_by_vialidad_type": {
+        "AMPLIACION": {
+          "Nombre de la Unidad Económica": 14,
+          "tiene_razon_social": 0.0,
+          "categoria_tamaño": {
+            "Micro": 14
+          }
+        },
+        "ANDADOR": {
+          "Nombre de la Unidad Económica": 60,
+          "tiene_razon_social": 0.0,
+          "categoria_tamaño": {
+            "Micro": 59,
+            "Pequeña": 1
+          }
+        },
+        "AVENIDA": {
+          "Nombre de la Unidad Económica": 423,
+          "tiene_razon_social": 0.04018912529550828,
+          "categoria_tamaño": {
+            "Micro": 394,
+            "Pequeña": 28,
+            "Mediana": 1
+          }
+        },
+        "BOULEVARD": {
+          "Nombre de la Unidad Económica": 135,
+          "tiene_razon_social": 0.21481481481481482,
+          "categoria_tamaño": {
+            "Micro": 91,
+            "Pequeña": 38,
+            "Mediana": 4,
+            "Grande": 2
+          }
+        },
+        "CALLE": {
+          "Nombre de la Unidad Económica": 4062,
+          "tiene_razon_social": 0.02634170359428853,
+          "categoria_tamaño": {
+            "Micro": 3844,
+            "Pequeña": 207,
+            "Mediana": 9,
+            "Grande": 2
+          }
+        },
+        "CALLEJON": {
+          "Nombre de la Unidad Económica": 33,
+          "tiene_razon_social": 0.0,
+          "categoria_tamaño": {
+            "Micro": 30,
+            "Pequeña": 3
+          }
+        },
+        "CARRETERA": {
+          "Nombre de la Unidad Económica": 91,
+          "tiene_razon_social": 0.16483516483516483,
+          "categoria_tamaño": {
+            "Micro": 81,
+            "Pequeña": 8,
+            "Mediana": 2
+          }
+        },
+        "CERRADA": {
+          "Nombre de la Unidad Económica": 5,
+          "tiene_razon_social": 0.0,
+          "categoria_tamaño": {
+            "Micro": 5
+          }
+        },
+        "CIRCUITO": {
+          "Nombre de la Unidad Económica": 3,
+          "tiene_razon_social": 0.0,
+          "categoria_tamaño": {
+            "Micro": 3
+          }
+        },
+        "EJE VIAL": {
+          "Nombre de la Unidad Económica": 1,
+          "tiene_razon_social": 0.0,
+          "categoria_tamaño": {
+            "Micro": 1
+          }
+        },
+        "OTRO(ESPECIFIQUE)": {
+          "Nombre de la Unidad Económica": 29,
+          "tiene_razon_social": 0.10344827586206896,
+          "categoria_tamaño": {
+            "Micro": 25,
+            "Pequeña": 2,
+            "Mediana": 1,
+            "Grande": 1
+          }
+        },
+        "PEATONAL": {
+          "Nombre de la Unidad Económica": 1,
+          "tiene_razon_social": 0.0,
+          "categoria_tamaño": {
+            "Micro": 1
+          }
+        },
+        "PERIFERICO": {
+          "Nombre de la Unidad Económica": 1,
+          "tiene_razon_social": 1.0,
+          "categoria_tamaño": {
+            "Grande": 1
+          }
+        },
+        "PRIVADA": {
+          "Nombre de la Unidad Económica": 105,
+          "tiene_razon_social": 0.009523809523809525,
+          "categoria_tamaño": {
+            "Micro": 103,
+            "Pequeña": 2
+          }
+        },
+        "PROLONGACION": {
+          "Nombre de la Unidad Económica": 26,
+          "tiene_razon_social": 0.038461538461538464,
+          "categoria_tamaño": {
+            "Micro": 23,
+            "Pequeña": 3
+          }
+        }
+      },
+      "top_commercial_corridors": {
+        "CALLE ABASOLO": 174,
+        "CALLE PORFIRIO DIAZ": 103,
+        "CALLE BENITO JUAREZ": 95,
+        "CALLE NINGUNO": 95,
+        "AVENIDA LATERAL MIGUEL HIDALGO Y COSTILLA": 82,
+        "CALLE LATERAL CARRETERA AL INGENIO": 73,
+        "BOULEVARD MEXICO LAREDO": 71,
+        "CALLE FRANCISCO I MADERO": 69,
+        "CALLE HIDALGO": 57,
+        "CALLE 5 DE MAYO": 51,
+        "CALLE NEGRETE": 47,
+        "CALLE MANUEL JOSE OTHON": 46,
+        "CALLE AQUILES SERDAN": 42,
+        "CALLE NICOLAS BRAVO": 41,
+        "CALLE VENUSTIANO CARRANZA": 41,
+        "CALLE MIGUEL HIDALGO": 40,
+        "CALLE DAMIAN CARMONA": 39,
+        "AVENIDA JORGE PASQUEL": 38,
+        "CALLE LOPEZ MATEOS": 37,
+        "CALLE PEDRO ANTONIO DE LOS SANTOS": 35
+      },
+      "corridor_detailed_analysis": {
+        "CALLE ABASOLO": {
+          "total_businesses": 174,
+          "persona_moral_rate": 2.2988505747126435,
+          "dominant_sectors": {
+            "Comercio al por menor": 122,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 51,
+            "Comercio al por mayor": 1
+          },
+          "size_distribution": {
+            "Micro": 158,
+            "Pequeña": 16
+          },
+          "business_diversity": 19
+        },
+        "CALLE PORFIRIO DIAZ": {
+          "total_businesses": 103,
+          "persona_moral_rate": 0.0,
+          "dominant_sectors": {
+            "Comercio al por menor": 74,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 26,
+            "Comercio al por mayor": 3
+          },
+          "size_distribution": {
+            "Micro": 97,
+            "Pequeña": 6
+          },
+          "business_diversity": 19
+        },
+        "CALLE BENITO JUAREZ": {
+          "total_businesses": 95,
+          "persona_moral_rate": 1.0526315789473684,
+          "dominant_sectors": {
+            "Comercio al por menor": 53,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 42
+          },
+          "size_distribution": {
+            "Micro": 82,
+            "Pequeña": 13
+          },
+          "business_diversity": 16
+        },
+        "CALLE NINGUNO": {
+          "total_businesses": 95,
+          "persona_moral_rate": 2.1052631578947367,
+          "dominant_sectors": {
+            "Comercio al por menor": 49,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 45,
+            "Comercio al por mayor": 1
+          },
+          "size_distribution": {
+            "Micro": 93,
+            "Pequeña": 2
+          },
+          "business_diversity": 13
+        },
+        "AVENIDA LATERAL MIGUEL HIDALGO Y COSTILLA": {
+          "total_businesses": 82,
+          "persona_moral_rate": 1.2195121951219512,
+          "dominant_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 43,
+            "Comercio al por menor": 38,
+            "Comercio al por mayor": 1
+          },
+          "size_distribution": {
+            "Micro": 75,
+            "Pequeña": 7
+          },
+          "business_diversity": 15
+        },
+        "CALLE LATERAL CARRETERA AL INGENIO": {
+          "total_businesses": 73,
+          "persona_moral_rate": 5.47945205479452,
+          "dominant_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 56,
+            "Comercio al por menor": 16,
+            "Comercio al por mayor": 1
+          },
+          "size_distribution": {
+            "Micro": 69,
+            "Pequeña": 3,
+            "Mediana": 1
+          },
+          "business_diversity": 15
+        },
+        "BOULEVARD MEXICO LAREDO": {
+          "total_businesses": 71,
+          "persona_moral_rate": 16.901408450704224,
+          "dominant_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 56,
+            "Comercio al por menor": 14,
+            "Comercio al por mayor": 1
+          },
+          "size_distribution": {
+            "Micro": 44,
+            "Pequeña": 25,
+            "Grande": 1,
+            "Mediana": 1
+          },
+          "business_diversity": 16
+        },
+        "CALLE FRANCISCO I MADERO": {
+          "total_businesses": 69,
+          "persona_moral_rate": 1.4492753623188406,
+          "dominant_sectors": {
+            "Comercio al por menor": 38,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 31
+          },
+          "size_distribution": {
+            "Micro": 66,
+            "Pequeña": 3
+          },
+          "business_diversity": 17
+        },
+        "CALLE HIDALGO": {
+          "total_businesses": 57,
+          "persona_moral_rate": 1.7543859649122806,
+          "dominant_sectors": {
+            "Comercio al por menor": 29,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 27,
+            "Comercio al por mayor": 1
+          },
+          "size_distribution": {
+            "Micro": 54,
+            "Pequeña": 3
+          },
+          "business_diversity": 17
+        },
+        "CALLE 5 DE MAYO": {
+          "total_businesses": 51,
+          "persona_moral_rate": 1.9607843137254901,
+          "dominant_sectors": {
+            "Comercio al por menor": 26,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 23,
+            "Comercio al por mayor": 2
+          },
+          "size_distribution": {
+            "Micro": 45,
+            "Pequeña": 6
+          },
+          "business_diversity": 14
+        },
+        "CALLE NEGRETE": {
+          "total_businesses": 47,
+          "persona_moral_rate": 2.127659574468085,
+          "dominant_sectors": {
+            "Comercio al por menor": 33,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 14
+          },
+          "size_distribution": {
+            "Micro": 41,
+            "Pequeña": 5,
+            "Mediana": 1
+          },
+          "business_diversity": 15
+        },
+        "CALLE MANUEL JOSE OTHON": {
+          "total_businesses": 46,
+          "persona_moral_rate": 0.0,
+          "dominant_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 27,
+            "Comercio al por menor": 19
+          },
+          "size_distribution": {
+            "Micro": 43,
+            "Pequeña": 3
+          },
+          "business_diversity": 14
+        },
+        "CALLE AQUILES SERDAN": {
+          "total_businesses": 42,
+          "persona_moral_rate": 0.0,
+          "dominant_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 27,
+            "Comercio al por menor": 15
+          },
+          "size_distribution": {
+            "Micro": 40,
+            "Pequeña": 2
+          },
+          "business_diversity": 13
+        },
+        "CALLE NICOLAS BRAVO": {
+          "total_businesses": 41,
+          "persona_moral_rate": 0.0,
+          "dominant_sectors": {
+            "Comercio al por menor": 23,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 18
+          },
+          "size_distribution": {
+            "Micro": 40,
+            "Pequeña": 1
+          },
+          "business_diversity": 14
+        },
+        "CALLE VENUSTIANO CARRANZA": {
+          "total_businesses": 41,
+          "persona_moral_rate": 0.0,
+          "dominant_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 28,
+            "Comercio al por menor": 12,
+            "Comercio al por mayor": 1
+          },
+          "size_distribution": {
+            "Micro": 39,
+            "Pequeña": 2
+          },
+          "business_diversity": 14
+        },
+        "CALLE MIGUEL HIDALGO": {
+          "total_businesses": 40,
+          "persona_moral_rate": 10.0,
+          "dominant_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 24,
+            "Comercio al por menor": 16
+          },
+          "size_distribution": {
+            "Micro": 36,
+            "Pequeña": 4
+          },
+          "business_diversity": 13
+        },
+        "CALLE DAMIAN CARMONA": {
+          "total_businesses": 39,
+          "persona_moral_rate": 0.0,
+          "dominant_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 24,
+            "Comercio al por menor": 15
+          },
+          "size_distribution": {
+            "Micro": 35,
+            "Pequeña": 4
+          },
+          "business_diversity": 14
+        },
+        "AVENIDA JORGE PASQUEL": {
+          "total_businesses": 38,
+          "persona_moral_rate": 2.631578947368421,
+          "dominant_sectors": {
+            "Comercio al por menor": 19,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 19
+          },
+          "size_distribution": {
+            "Micro": 34,
+            "Pequeña": 3,
+            "Mediana": 1
+          },
+          "business_diversity": 11
+        },
+        "CALLE LOPEZ MATEOS": {
+          "total_businesses": 37,
+          "persona_moral_rate": 0.0,
+          "dominant_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 20,
+            "Comercio al por menor": 17
+          },
+          "size_distribution": {
+            "Micro": 34,
+            "Pequeña": 3
+          },
+          "business_diversity": 14
+        },
+        "CALLE PEDRO ANTONIO DE LOS SANTOS": {
+          "total_businesses": 35,
+          "persona_moral_rate": 11.428571428571429,
+          "dominant_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 18,
+            "Comercio al por menor": 17
+          },
+          "size_distribution": {
+            "Micro": 29,
+            "Pequeña": 6
+          },
+          "business_diversity": 14
+        }
+      }
+    },
+    "commercial_centers": {
+      "center_types": {
+        "MERCADO PUBLICO": 285,
+        "CENTRO Y PLAZA COMERCIAL": 25,
+        "PASAJE Y ANDADOR COMERCIAL": 15,
+        "CENTRAL CAMIONERA": 12,
+        "EDIFICIO COMERCIAL Y DE SERVICIOS": 2
+      },
+      "center_type_distribution": {
+        "MERCADO PUBLICO": 285,
+        "CENTRO Y PLAZA COMERCIAL": 25,
+        "PASAJE Y ANDADOR COMERCIAL": 15,
+        "CENTRAL CAMIONERA": 12,
+        "EDIFICIO COMERCIAL Y DE SERVICIOS": 2
+      },
+      "businesses_in_centers": 339,
+      "businesses_not_in_centers": 4650,
+      "center_coverage_percentage": 6.794948887552615,
+      "center_type_analysis": {
+        "MERCADO PUBLICO": {
+          "total_businesses": 285,
+          "avg_persona_moral_rate": 1.0526315789473684,
+          "dominant_activities": {
+            "Comercio al por menor de frutas y verduras frescas": 70,
+            "Comercio al por menor de carnes rojas": 39,
+            "Restaurantes con servicio de preparación de antojitos": 30,
+            "Restaurantes con servicio de preparación de tacos y tortas": 20,
+            "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 16,
+            "Restaurantes que preparan otro tipo de alimentos para llevar": 16,
+            "Comercio al por menor de carne de aves": 14,
+            "Comercio al por menor de semillas y granos alimenticios, especias y chiles secos": 14,
+            "Comercio al por menor de otros alimentos": 14,
+            "Cafeterías, fuentes de sodas, neverías, refresquerías y similares": 10
+          },
+          "size_mix": {
+            "Micro": 270,
+            "Pequeña": 15
+          }
+        },
+        "CENTRO Y PLAZA COMERCIAL": {
+          "total_businesses": 25,
+          "avg_persona_moral_rate": 8.0,
+          "dominant_activities": {
+            "Cafeterías, fuentes de sodas, neverías, refresquerías y similares": 5,
+            "Comercio al por menor de frutas y verduras frescas": 3,
+            "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 2,
+            "Restaurantes que preparan otro tipo de alimentos para llevar": 2,
+            "Restaurantes con servicio de preparación de antojitos": 2,
+            "Comercio al por menor de otros alimentos": 2,
+            "Servicios de preparación de otros alimentos para consumo inmediato": 2,
+            "Comercio al por menor de carnes rojas": 1,
+            "Comercio al por mayor de otros alimentos": 1,
+            "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 1
+          },
+          "size_mix": {
+            "Micro": 19,
+            "Pequeña": 6
+          }
+        },
+        "PASAJE Y ANDADOR COMERCIAL": {
+          "total_businesses": 15,
+          "avg_persona_moral_rate": 0.0,
+          "dominant_activities": {
+            "Restaurantes con servicio de preparación de tacos y tortas": 3,
+            "Comercio al por menor de dulces y materias primas para repostería": 2,
+            "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 2,
+            "Cafeterías, fuentes de sodas, neverías, refresquerías y similares": 2,
+            "Comercio al por menor de paletas de hielo y helados": 2,
+            "Comercio al por menor de semillas y granos alimenticios, especias y chiles secos": 1,
+            "Comercio al por menor de frutas y verduras frescas": 1,
+            "Restaurantes que preparan otro tipo de alimentos para llevar": 1,
+            "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 1
+          },
+          "size_mix": {
+            "Micro": 13,
+            "Pequeña": 2
+          }
+        },
+        "CENTRAL CAMIONERA": {
+          "total_businesses": 12,
+          "avg_persona_moral_rate": 33.33333333333333,
+          "dominant_activities": {
+            "Restaurantes con servicio de preparación de pizzas, hamburguesas, hot dogs y pollos rostizados para llevar": 2,
+            "Comercio al por menor de otros alimentos": 1,
+            "Comercio al por menor de carnes rojas": 1,
+            "Comercio al por menor de frutas y verduras frescas": 1,
+            "Comercio al por menor de paletas de hielo y helados": 1,
+            "Comercio al por menor de dulces y materias primas para repostería": 1,
+            "Comercio al por menor en minisupers": 1,
+            "Servicios de preparación de otros alimentos para consumo inmediato": 1,
+            "Restaurantes de autoservicio": 1,
+            "Restaurantes con servicio de preparación de antojitos": 1
+          },
+          "size_mix": {
+            "Micro": 9,
+            "Pequeña": 3
+          }
+        },
+        "EDIFICIO COMERCIAL Y DE SERVICIOS": {
+          "total_businesses": 2,
+          "avg_persona_moral_rate": 50.0,
+          "dominant_activities": {
+            "Comercio al por menor en minisupers": 1,
+            "Servicios de preparación de otros alimentos para consumo inmediato": 1
+          },
+          "size_mix": {
+            "Pequeña": 1,
+            "Micro": 1
+          }
+        }
+      },
+      "industrial_corridors": {
+        "GONZALO N SANTOS": 185,
+        "MERCADO CONSTITUCION": 28,
+        "MERCADO MUNICIPAL DE TAMASOPO": 28,
+        "MERCADO 5 DE MAYO": 22,
+        "MERCADO MUNICIPAL": 21,
+        "PLAZA TRES MARIAS": 9,
+        "ECOCENTRAL": 9,
+        "PASEO HUASTECA LINDA": 4,
+        "MARIA LUISA": 3,
+        "PLAZA LA VILLA": 3,
+        "ECO CENTRALITA": 3,
+        "LA ANTOJERIA": 2,
+        "ECO PLAZA": 2,
+        "PLAZA NELLY": 2,
+        "PASAJE MARIA DE JESUS": 2
+      },
+      "industrial_corridor_analysis": {
+        "GONZALO N SANTOS": {
+          "total_businesses": 185,
+          "sector_composition": {
+            "Comercio al por menor": 132,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 53
+          },
+          "average_business_size": {
+            "Micro": 174,
+            "Pequeña": 11
+          },
+          "persona_moral_level": 0.5405405405405406
+        },
+        "MERCADO CONSTITUCION": {
+          "total_businesses": 28,
+          "sector_composition": {
+            "Comercio al por menor": 19,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 9
+          },
+          "average_business_size": {
+            "Micro": 27,
+            "Pequeña": 1
+          },
+          "persona_moral_level": 0.0
+        },
+        "MERCADO MUNICIPAL DE TAMASOPO": {
+          "total_businesses": 28,
+          "sector_composition": {
+            "Comercio al por menor": 15,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 13
+          },
+          "average_business_size": {
+            "Micro": 28
+          },
+          "persona_moral_level": 0.0
+        },
+        "MERCADO 5 DE MAYO": {
+          "total_businesses": 22,
+          "sector_composition": {
+            "Comercio al por menor": 11,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 11
+          },
+          "average_business_size": {
+            "Micro": 20,
+            "Pequeña": 2
+          },
+          "persona_moral_level": 4.545454545454546
+        },
+        "MERCADO MUNICIPAL": {
+          "total_businesses": 21,
+          "sector_composition": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 15,
+            "Comercio al por menor": 6
+          },
+          "average_business_size": {
+            "Micro": 21
+          },
+          "persona_moral_level": 0.0
+        },
+        "PLAZA TRES MARIAS": {
+          "total_businesses": 9,
+          "sector_composition": {
+            "Comercio al por menor": 6,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 3
+          },
+          "average_business_size": {
+            "Micro": 8,
+            "Pequeña": 1
+          },
+          "persona_moral_level": 0.0
+        },
+        "ECOCENTRAL": {
+          "total_businesses": 9,
+          "sector_composition": {
+            "Comercio al por menor": 5,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 4
+          },
+          "average_business_size": {
+            "Micro": 9
+          },
+          "persona_moral_level": 11.11111111111111
+        },
+        "PASEO HUASTECA LINDA": {
+          "total_businesses": 4,
+          "sector_composition": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 3,
+            "Comercio al por menor": 1
+          },
+          "average_business_size": {
+            "Micro": 3,
+            "Pequeña": 1
+          },
+          "persona_moral_level": 0.0
+        },
+        "MARIA LUISA": {
+          "total_businesses": 3,
+          "sector_composition": {
+            "Comercio al por menor": 2,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 1
+          },
+          "average_business_size": {
+            "Micro": 2,
+            "Pequeña": 1
+          },
+          "persona_moral_level": 0.0
+        },
+        "PLAZA LA VILLA": {
+          "total_businesses": 3,
+          "sector_composition": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 3
+          },
+          "average_business_size": {
+            "Pequeña": 2,
+            "Micro": 1
+          },
+          "persona_moral_level": 33.33333333333333
+        }
+      }
+    },
+    "business_synergies": {
+      "high_diversity_corridors": {
+        "CALLE ABASOLO": 19,
+        "CALLE PORFIRIO DIAZ": 19,
+        "CALLE FRANCISCO I MADERO": 17,
+        "CALLE HIDALGO": 17,
+        "BOULEVARD MEXICO LAREDO": 16,
+        "CALLE BENITO JUAREZ": 16,
+        "CALLE NIÑOS HEROES": 16,
+        "AVENIDA LATERAL MIGUEL HIDALGO Y COSTILLA": 15,
+        "CALLE LATERAL CARRETERA AL INGENIO": 15,
+        "CALLE NEGRETE": 15
+      },
+      "activity_cooccurrence": {
+        "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": {
+          "Restaurantes con servicio de preparación de antojitos": 585,
+          "Restaurantes con servicio de preparación de tacos y tortas": 489,
+          "Servicios de preparación de otros alimentos para consumo inmediato": 219,
+          "Comercio al por menor de frutas y verduras frescas": 197,
+          "Comercio al por menor de carnes rojas": 183
+        },
+        "Restaurantes con servicio de preparación de antojitos": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 861,
+          "Restaurantes con servicio de preparación de tacos y tortas": 373,
+          "Comercio al por menor de frutas y verduras frescas": 185,
+          "Servicios de preparación de otros alimentos para consumo inmediato": 170,
+          "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 166
+        },
+        "Restaurantes con servicio de preparación de tacos y tortas": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 858,
+          "Restaurantes con servicio de preparación de antojitos": 489,
+          "Comercio al por menor de frutas y verduras frescas": 197,
+          "Servicios de preparación de otros alimentos para consumo inmediato": 171,
+          "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 166
+        },
+        "Servicios de preparación de otros alimentos para consumo inmediato": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 592,
+          "Restaurantes con servicio de preparación de antojitos": 357,
+          "Restaurantes con servicio de preparación de tacos y tortas": 267,
+          "Comercio al por menor de frutas y verduras frescas": 165,
+          "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 119
+        },
+        "Comercio al por menor de frutas y verduras frescas": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 330,
+          "Restaurantes con servicio de preparación de antojitos": 239,
+          "Restaurantes con servicio de preparación de tacos y tortas": 178,
+          "Comercio al por menor de carnes rojas": 111,
+          "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 85
+        },
+        "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 443,
+          "Restaurantes con servicio de preparación de antojitos": 317,
+          "Restaurantes con servicio de preparación de tacos y tortas": 239,
+          "Comercio al por menor de frutas y verduras frescas": 146,
+          "Comercio al por menor de carnes rojas": 116
+        },
+        "Restaurantes con servicio de preparación de pizzas, hamburguesas, hot dogs y pollos rostizados para llevar": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 512,
+          "Restaurantes con servicio de preparación de antojitos": 352,
+          "Restaurantes con servicio de preparación de tacos y tortas": 274,
+          "Comercio al por menor de frutas y verduras frescas": 163,
+          "Comercio al por menor de carnes rojas": 131
+        },
+        "Comercio al por menor de carnes rojas": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 442,
+          "Restaurantes con servicio de preparación de antojitos": 310,
+          "Restaurantes con servicio de preparación de tacos y tortas": 227,
+          "Comercio al por menor de frutas y verduras frescas": 170,
+          "Restaurantes con servicio de preparación de pizzas, hamburguesas, hot dogs y pollos rostizados para llevar": 108
+        },
+        "Cafeterías, fuentes de sodas, neverías, refresquerías y similares": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 493,
+          "Restaurantes con servicio de preparación de antojitos": 314,
+          "Restaurantes con servicio de preparación de tacos y tortas": 240,
+          "Comercio al por menor de frutas y verduras frescas": 161,
+          "Comercio al por menor de carnes rojas": 121
+        },
+        "Restaurantes que preparan otro tipo de alimentos para llevar": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 382,
+          "Restaurantes con servicio de preparación de antojitos": 285,
+          "Restaurantes con servicio de preparación de tacos y tortas": 214,
+          "Comercio al por menor de frutas y verduras frescas": 148,
+          "Comercio al por menor de carnes rojas": 116
+        },
+        "Comercio al por menor en minisupers": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 191,
+          "Restaurantes con servicio de preparación de antojitos": 172,
+          "Restaurantes con servicio de preparación de tacos y tortas": 119,
+          "Comercio al por menor de frutas y verduras frescas": 87,
+          "Comercio al por menor de carnes rojas": 65
+        },
+        "Restaurantes con servicio de preparación de pescados y mariscos": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 250,
+          "Restaurantes con servicio de preparación de antojitos": 200,
+          "Restaurantes con servicio de preparación de tacos y tortas": 140,
+          "Comercio al por menor de frutas y verduras frescas": 103,
+          "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 88
+        },
+        "Comercio al por menor de carne de aves": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 308,
+          "Restaurantes con servicio de preparación de antojitos": 213,
+          "Restaurantes con servicio de preparación de tacos y tortas": 152,
+          "Comercio al por menor de frutas y verduras frescas": 99,
+          "Comercio al por menor de carnes rojas": 92
+        },
+        "Comercio al por menor de leche, otros productos lácteos y embutidos": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 230,
+          "Restaurantes con servicio de preparación de antojitos": 174,
+          "Comercio al por menor de frutas y verduras frescas": 123,
+          "Restaurantes con servicio de preparación de tacos y tortas": 115,
+          "Comercio al por menor de carnes rojas": 64
+        },
+        "Comercio al por menor de semillas y granos alimenticios, especias y chiles secos": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 214,
+          "Restaurantes con servicio de preparación de antojitos": 181,
+          "Comercio al por menor de frutas y verduras frescas": 147,
+          "Restaurantes con servicio de preparación de tacos y tortas": 129,
+          "Comercio al por menor de carnes rojas": 92
+        },
+        "Comercio al por menor de dulces y materias primas para repostería": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 238,
+          "Restaurantes con servicio de preparación de antojitos": 174,
+          "Comercio al por menor de frutas y verduras frescas": 146,
+          "Restaurantes con servicio de preparación de tacos y tortas": 103,
+          "Comercio al por menor de carnes rojas": 88
+        },
+        "Comercio al por menor de otros alimentos": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 165,
+          "Comercio al por menor de frutas y verduras frescas": 132,
+          "Restaurantes con servicio de preparación de antojitos": 127,
+          "Restaurantes con servicio de preparación de tacos y tortas": 98,
+          "Comercio al por menor de carnes rojas": 65
+        },
+        "Comercio al por menor de paletas de hielo y helados": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 140,
+          "Restaurantes con servicio de preparación de antojitos": 110,
+          "Restaurantes con servicio de preparación de tacos y tortas": 76,
+          "Comercio al por menor de frutas y verduras frescas": 56,
+          "Comercio al por menor de carnes rojas": 54
+        },
+        "Comercio al por menor de pescados y mariscos": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 150,
+          "Restaurantes con servicio de preparación de antojitos": 126,
+          "Comercio al por menor de frutas y verduras frescas": 114,
+          "Restaurantes con servicio de preparación de tacos y tortas": 96,
+          "Comercio al por menor de carnes rojas": 65
+        },
+        "Restaurantes de autoservicio": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 75,
+          "Restaurantes con servicio de preparación de antojitos": 74,
+          "Restaurantes con servicio de preparación de tacos y tortas": 53,
+          "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 40,
+          "Comercio al por menor de carnes rojas": 33
+        }
+      },
+      "size_mix_by_corridor": {
+        "CALLE ABASOLO": {
+          "size_percentages": {
+            "Micro": 90.80459770114942,
+            "Pequeña": 9.195402298850574
+          },
+          "total_businesses": 174,
+          "dominant_size": "Micro"
+        },
+        "CALLE PORFIRIO DIAZ": {
+          "size_percentages": {
+            "Micro": 94.1747572815534,
+            "Pequeña": 5.825242718446602
+          },
+          "total_businesses": 103,
+          "dominant_size": "Micro"
+        },
+        "CALLE BENITO JUAREZ": {
+          "size_percentages": {
+            "Micro": 86.31578947368422,
+            "Pequeña": 13.684210526315791
+          },
+          "total_businesses": 95,
+          "dominant_size": "Micro"
+        },
+        "CALLE NINGUNO": {
+          "size_percentages": {
+            "Micro": 97.89473684210527,
+            "Pequeña": 2.1052631578947367
+          },
+          "total_businesses": 95,
+          "dominant_size": "Micro"
+        },
+        "AVENIDA LATERAL MIGUEL HIDALGO Y COSTILLA": {
+          "size_percentages": {
+            "Micro": 91.46341463414635,
+            "Pequeña": 8.536585365853659
+          },
+          "total_businesses": 82,
+          "dominant_size": "Micro"
+        },
+        "CALLE LATERAL CARRETERA AL INGENIO": {
+          "size_percentages": {
+            "Micro": 94.52054794520548,
+            "Pequeña": 4.10958904109589,
+            "Mediana": 1.36986301369863
+          },
+          "total_businesses": 73,
+          "dominant_size": "Micro"
+        },
+        "BOULEVARD MEXICO LAREDO": {
+          "size_percentages": {
+            "Micro": 61.97183098591549,
+            "Pequeña": 35.2112676056338,
+            "Grande": 1.4084507042253522,
+            "Mediana": 1.4084507042253522
+          },
+          "total_businesses": 71,
+          "dominant_size": "Micro"
+        },
+        "CALLE FRANCISCO I MADERO": {
+          "size_percentages": {
+            "Micro": 95.65217391304348,
+            "Pequeña": 4.3478260869565215
+          },
+          "total_businesses": 69,
+          "dominant_size": "Micro"
+        },
+        "CALLE HIDALGO": {
+          "size_percentages": {
+            "Micro": 94.73684210526315,
+            "Pequeña": 5.263157894736842
+          },
+          "total_businesses": 57,
+          "dominant_size": "Micro"
+        },
+        "CALLE 5 DE MAYO": {
+          "size_percentages": {
+            "Micro": 88.23529411764706,
+            "Pequeña": 11.76470588235294
+          },
+          "total_businesses": 51,
+          "dominant_size": "Micro"
+        },
+        "CALLE NEGRETE": {
+          "size_percentages": {
+            "Micro": 87.2340425531915,
+            "Pequeña": 10.638297872340425,
+            "Mediana": 2.127659574468085
+          },
+          "total_businesses": 47,
+          "dominant_size": "Micro"
+        },
+        "CALLE MANUEL JOSE OTHON": {
+          "size_percentages": {
+            "Micro": 93.47826086956522,
+            "Pequeña": 6.521739130434782
+          },
+          "total_businesses": 46,
+          "dominant_size": "Micro"
+        },
+        "CALLE AQUILES SERDAN": {
+          "size_percentages": {
+            "Micro": 95.23809523809523,
+            "Pequeña": 4.761904761904762
+          },
+          "total_businesses": 42,
+          "dominant_size": "Micro"
+        },
+        "CALLE NICOLAS BRAVO": {
+          "size_percentages": {
+            "Micro": 97.5609756097561,
+            "Pequeña": 2.4390243902439024
+          },
+          "total_businesses": 41,
+          "dominant_size": "Micro"
+        },
+        "CALLE VENUSTIANO CARRANZA": {
+          "size_percentages": {
+            "Micro": 95.1219512195122,
+            "Pequeña": 4.878048780487805
+          },
+          "total_businesses": 41,
+          "dominant_size": "Micro"
+        }
+      },
+      "top_business_combinations": {
+        "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas + Restaurantes con servicio de preparación de antojitos": 585,
+        "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas + Restaurantes con servicio de preparación de tacos y tortas": 489,
+        "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas + Servicios de preparación de otros alimentos para consumo inmediato": 219,
+        "Restaurantes con servicio de preparación de antojitos + Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 861,
+        "Restaurantes con servicio de preparación de antojitos + Restaurantes con servicio de preparación de tacos y tortas": 373,
+        "Restaurantes con servicio de preparación de antojitos + Comercio al por menor de frutas y verduras frescas": 185,
+        "Restaurantes con servicio de preparación de tacos y tortas + Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 858,
+        "Restaurantes con servicio de preparación de tacos y tortas + Restaurantes con servicio de preparación de antojitos": 489,
+        "Restaurantes con servicio de preparación de tacos y tortas + Comercio al por menor de frutas y verduras frescas": 197,
+        "Servicios de preparación de otros alimentos para consumo inmediato + Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 592,
+        "Servicios de preparación de otros alimentos para consumo inmediato + Restaurantes con servicio de preparación de antojitos": 357,
+        "Servicios de preparación de otros alimentos para consumo inmediato + Restaurantes con servicio de preparación de tacos y tortas": 267,
+        "Comercio al por menor de frutas y verduras frescas + Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 330,
+        "Comercio al por menor de frutas y verduras frescas + Restaurantes con servicio de preparación de antojitos": 239,
+        "Comercio al por menor de frutas y verduras frescas + Restaurantes con servicio de preparación de tacos y tortas": 178,
+        "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida + Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 443,
+        "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida + Restaurantes con servicio de preparación de antojitos": 317,
+        "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida + Restaurantes con servicio de preparación de tacos y tortas": 239,
+        "Restaurantes con servicio de preparación de pizzas, hamburguesas, hot dogs y pollos rostizados para llevar + Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 512,
+        "Restaurantes con servicio de preparación de pizzas, hamburguesas, hot dogs y pollos rostizados para llevar + Restaurantes con servicio de preparación de antojitos": 352,
+        "Restaurantes con servicio de preparación de pizzas, hamburguesas, hot dogs y pollos rostizados para llevar + Restaurantes con servicio de preparación de tacos y tortas": 274,
+        "Comercio al por menor de carnes rojas + Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 442,
+        "Comercio al por menor de carnes rojas + Restaurantes con servicio de preparación de antojitos": 310,
+        "Comercio al por menor de carnes rojas + Restaurantes con servicio de preparación de tacos y tortas": 227,
+        "Cafeterías, fuentes de sodas, neverías, refresquerías y similares + Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 493,
+        "Cafeterías, fuentes de sodas, neverías, refresquerías y similares + Restaurantes con servicio de preparación de antojitos": 314,
+        "Cafeterías, fuentes de sodas, neverías, refresquerías y similares + Restaurantes con servicio de preparación de tacos y tortas": 240,
+        "Restaurantes que preparan otro tipo de alimentos para llevar + Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 382,
+        "Restaurantes que preparan otro tipo de alimentos para llevar + Restaurantes con servicio de preparación de antojitos": 285,
+        "Restaurantes que preparan otro tipo de alimentos para llevar + Restaurantes con servicio de preparación de tacos y tortas": 214
+      }
+    },
+    "geographic_concentration": {
+      "postal_code_concentration": {
+        "79000.0": 615,
+        "79020.0": 468,
+        "79050.0": 378,
+        "79010.0": 317,
+        "79710.0": 229,
+        "79310.0": 190,
+        "79030.0": 167,
+        "79760.0": 146,
+        "79068.0": 143,
+        "79060.0": 136,
+        "79040.0": 134,
+        "79810.0": 125,
+        "79080.0": 113,
+        "79028.0": 111,
+        "79730.0": 102,
+        "79200.0": 93,
+        "79203.0": 84,
+        "79300.0": 84,
+        "79095.0": 77,
+        "79303.0": 76
+      },
+      "postal_code_analysis": {
+        "79000.0": {
+          "total_businesses": 615,
+          "unique_activities": 25,
+          "unique_sectors": 3,
+          "persona_moral_rate": 3.577235772357724,
+          "dominant_activities": {
+            "Comercio al por menor de frutas y verduras frescas": 127,
+            "Restaurantes con servicio de preparación de antojitos": 58,
+            "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 44,
+            "Restaurantes con servicio de preparación de tacos y tortas": 44,
+            "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 43
+          }
+        },
+        "79020.0": {
+          "total_businesses": 468,
+          "unique_activities": 20,
+          "unique_sectors": 3,
+          "persona_moral_rate": 0.8547008547008548,
+          "dominant_activities": {
+            "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 188,
+            "Restaurantes con servicio de preparación de antojitos": 74,
+            "Restaurantes con servicio de preparación de tacos y tortas": 66,
+            "Servicios de preparación de otros alimentos para consumo inmediato": 25,
+            "Restaurantes con servicio de preparación de pizzas, hamburguesas, hot dogs y pollos rostizados para llevar": 22
+          }
+        },
+        "79050.0": {
+          "total_businesses": 378,
+          "unique_activities": 22,
+          "unique_sectors": 3,
+          "persona_moral_rate": 3.7037037037037033,
+          "dominant_activities": {
+            "Restaurantes con servicio de preparación de antojitos": 80,
+            "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 78,
+            "Restaurantes con servicio de preparación de tacos y tortas": 54,
+            "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 27,
+            "Restaurantes con servicio de preparación de pizzas, hamburguesas, hot dogs y pollos rostizados para llevar": 19
+          }
+        },
+        "79010.0": {
+          "total_businesses": 317,
+          "unique_activities": 20,
+          "unique_sectors": 3,
+          "persona_moral_rate": 1.5772870662460567,
+          "dominant_activities": {
+            "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 129,
+            "Restaurantes con servicio de preparación de tacos y tortas": 47,
+            "Restaurantes con servicio de preparación de antojitos": 46,
+            "Comercio al por menor de frutas y verduras frescas": 15,
+            "Restaurantes con servicio de preparación de pizzas, hamburguesas, hot dogs y pollos rostizados para llevar": 15
+          }
+        },
+        "79710.0": {
+          "total_businesses": 229,
+          "unique_activities": 21,
+          "unique_sectors": 3,
+          "persona_moral_rate": 0.0,
+          "dominant_activities": {
+            "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 84,
+            "Restaurantes con servicio de preparación de antojitos": 40,
+            "Restaurantes con servicio de preparación de tacos y tortas": 22,
+            "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 21,
+            "Comercio al por menor de carnes rojas": 11
+          }
+        },
+        "79310.0": {
+          "total_businesses": 190,
+          "unique_activities": 18,
+          "unique_sectors": 2,
+          "persona_moral_rate": 0.5263157894736842,
+          "dominant_activities": {
+            "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 68,
+            "Restaurantes con servicio de preparación de antojitos": 33,
+            "Restaurantes con servicio de preparación de tacos y tortas": 19,
+            "Comercio al por menor de carnes rojas": 18,
+            "Restaurantes con servicio de preparación de pizzas, hamburguesas, hot dogs y pollos rostizados para llevar": 10
+          }
+        },
+        "79030.0": {
+          "total_businesses": 167,
+          "unique_activities": 17,
+          "unique_sectors": 3,
+          "persona_moral_rate": 0.0,
+          "dominant_activities": {
+            "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 80,
+            "Restaurantes con servicio de preparación de tacos y tortas": 20,
+            "Restaurantes con servicio de preparación de antojitos": 19,
+            "Servicios de preparación de otros alimentos para consumo inmediato": 14,
+            "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 6
+          }
+        },
+        "79760.0": {
+          "total_businesses": 146,
+          "unique_activities": 19,
+          "unique_sectors": 3,
+          "persona_moral_rate": 0.684931506849315,
+          "dominant_activities": {
+            "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 37,
+            "Restaurantes con servicio de preparación de tacos y tortas": 21,
+            "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 14,
+            "Comercio al por menor de carnes rojas": 13,
+            "Restaurantes con servicio de preparación de antojitos": 12
+          }
+        },
+        "79068.0": {
+          "total_businesses": 143,
+          "unique_activities": 13,
+          "unique_sectors": 2,
+          "persona_moral_rate": 2.097902097902098,
+          "dominant_activities": {
+            "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 75,
+            "Restaurantes con servicio de preparación de tacos y tortas": 22,
+            "Restaurantes con servicio de preparación de antojitos": 15,
+            "Restaurantes con servicio de preparación de pizzas, hamburguesas, hot dogs y pollos rostizados para llevar": 8,
+            "Comercio al por menor de carnes rojas": 5
+          }
+        },
+        "79060.0": {
+          "total_businesses": 136,
+          "unique_activities": 16,
+          "unique_sectors": 3,
+          "persona_moral_rate": 3.6764705882352944,
+          "dominant_activities": {
+            "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 59,
+            "Restaurantes con servicio de preparación de tacos y tortas": 17,
+            "Restaurantes con servicio de preparación de antojitos": 17,
+            "Servicios de preparación de otros alimentos para consumo inmediato": 9,
+            "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 8
+          }
+        }
+      },
+      "municipal_concentration": {
+        "Ciudad Valles": 3438,
+        "Tamuín": 516,
+        "Tamasopo": 412,
+        "El Naranjo": 351,
+        "Aquismón": 146,
+        "Tanlajás": 126
+      }
+    },
+    "corridor_opportunities": {
+      "low_diversity_corridors": {
+        "CALLE ABASOLO": {
+          "total_businesses": 174,
+          "activity_diversity": 19,
+          "sector_diversity": 3,
+          "persona_moral_rate": 0.022988505747126436,
+          "diversity_ratio": 0.10919540229885058
+        },
+        "CALLE NINGUNO": {
+          "total_businesses": 95,
+          "activity_diversity": 13,
+          "sector_diversity": 3,
+          "persona_moral_rate": 0.021052631578947368,
+          "diversity_ratio": 0.1368421052631579
+        },
+        "CALLE CALLE DEL CARMEN": {
+          "total_businesses": 6,
+          "activity_diversity": 1,
+          "sector_diversity": 1,
+          "persona_moral_rate": 0.0,
+          "diversity_ratio": 0.16666666666666666
+        },
+        "CALLE BENITO JUAREZ": {
+          "total_businesses": 95,
+          "activity_diversity": 16,
+          "sector_diversity": 2,
+          "persona_moral_rate": 0.010526315789473684,
+          "diversity_ratio": 0.16842105263157894
+        },
+        "CALLE ADOLFO LOPEZ MATEOS": {
+          "total_businesses": 34,
+          "activity_diversity": 6,
+          "sector_diversity": 2,
+          "persona_moral_rate": 0.0,
+          "diversity_ratio": 0.17647058823529413
+        },
+        "AVENIDA LATERAL MIGUEL HIDALGO Y COSTILLA": {
+          "total_businesses": 82,
+          "activity_diversity": 15,
+          "sector_diversity": 3,
+          "persona_moral_rate": 0.012195121951219513,
+          "diversity_ratio": 0.18292682926829268
+        },
+        "CALLE PORFIRIO DIAZ": {
+          "total_businesses": 103,
+          "activity_diversity": 19,
+          "sector_diversity": 3,
+          "persona_moral_rate": 0.0,
+          "diversity_ratio": 0.18446601941747573
+        },
+        "CALLE CANTERA": {
+          "total_businesses": 5,
+          "activity_diversity": 1,
+          "sector_diversity": 1,
+          "persona_moral_rate": 0.0,
+          "diversity_ratio": 0.2
+        },
+        "CALLE CARLOS DIEZ GUTIERREZ": {
+          "total_businesses": 5,
+          "activity_diversity": 1,
+          "sector_diversity": 1,
+          "persona_moral_rate": 0.0,
+          "diversity_ratio": 0.2
+        },
+        "CALLE LATERAL CARRETERA AL INGENIO": {
+          "total_businesses": 73,
+          "activity_diversity": 15,
+          "sector_diversity": 3,
+          "persona_moral_rate": 0.0547945205479452,
+          "diversity_ratio": 0.2054794520547945
+        }
+      },
+      "low_corporate_corridors": {
+        "AMPLIACION NINGUNO": {
+          "total_businesses": 7,
+          "activity_diversity": 5,
+          "sector_diversity": 2,
+          "persona_moral_rate": 0.0,
+          "diversity_ratio": 0.7142857142857143
+        },
+        "ANDADOR NINGUNO": {
+          "total_businesses": 11,
+          "activity_diversity": 4,
+          "sector_diversity": 2,
+          "persona_moral_rate": 0.0,
+          "diversity_ratio": 0.36363636363636365
+        },
+        "AVENIDA EMILIANO ZAPATA": {
+          "total_businesses": 34,
+          "activity_diversity": 12,
+          "sector_diversity": 2,
+          "persona_moral_rate": 0.0,
+          "diversity_ratio": 0.35294117647058826
+        },
+        "AVENIDA FERROCARRIL": {
+          "total_businesses": 11,
+          "activity_diversity": 5,
+          "sector_diversity": 2,
+          "persona_moral_rate": 0.0,
+          "diversity_ratio": 0.45454545454545453
+        },
+        "AVENIDA FIDEL VELAZQUEZ": {
+          "total_businesses": 17,
+          "activity_diversity": 9,
+          "sector_diversity": 2,
+          "persona_moral_rate": 0.0,
+          "diversity_ratio": 0.5294117647058824
+        },
+        "AVENIDA HIDALGO": {
+          "total_businesses": 6,
+          "activity_diversity": 5,
+          "sector_diversity": 2,
+          "persona_moral_rate": 0.0,
+          "diversity_ratio": 0.8333333333333334
+        },
+        "AVENIDA LATERAL AEROPUERTO": {
+          "total_businesses": 8,
+          "activity_diversity": 4,
+          "sector_diversity": 2,
+          "persona_moral_rate": 0.0,
+          "diversity_ratio": 0.5
+        },
+        "AVENIDA LATERAL BENITO JUAREZ": {
+          "total_businesses": 8,
+          "activity_diversity": 5,
+          "sector_diversity": 2,
+          "persona_moral_rate": 0.0,
+          "diversity_ratio": 0.625
+        },
+        "AVENIDA LATERAL JORGE PASQUEL": {
+          "total_businesses": 16,
+          "activity_diversity": 6,
+          "sector_diversity": 2,
+          "persona_moral_rate": 0.0,
+          "diversity_ratio": 0.375
+        },
+        "AVENIDA LOS PINOS": {
+          "total_businesses": 6,
+          "activity_diversity": 5,
+          "sector_diversity": 2,
+          "persona_moral_rate": 0.0,
+          "diversity_ratio": 0.8333333333333334
+        }
+      },
+      "missing_activities_in_corridors": {
+        "CALLE ABASOLO": [
+          "Comercio al por menor de paletas de hielo y helados",
+          "Restaurantes de autoservicio"
+        ],
+        "CALLE PORFIRIO DIAZ": [
+          "Comercio al por menor en minisupers",
+          "Restaurantes con servicio de preparación de pescados y mariscos",
+          "Comercio al por menor de carne de aves",
+          "Restaurantes de autoservicio"
+        ],
+        "CALLE BENITO JUAREZ": [
+          "Comercio al por menor en minisupers",
+          "Restaurantes con servicio de preparación de pescados y mariscos",
+          "Comercio al por menor de paletas de hielo y helados",
+          "Restaurantes de autoservicio"
+        ],
+        "CALLE NINGUNO": [
+          "Comercio al por menor en minisupers",
+          "Restaurantes con servicio de preparación de pescados y mariscos",
+          "Comercio al por menor de leche, otros productos lácteos y embutidos",
+          "Comercio al por menor de semillas y granos alimenticios, especias y chiles secos",
+          "Comercio al por menor de otros alimentos"
+        ],
+        "AVENIDA LATERAL MIGUEL HIDALGO Y COSTILLA": [
+          "Servicios de preparación de otros alimentos para consumo inmediato",
+          "Restaurantes con servicio de preparación de pescados y mariscos",
+          "Comercio al por menor de leche, otros productos lácteos y embutidos",
+          "Comercio al por menor de otros alimentos",
+          "Comercio al por menor de paletas de hielo y helados"
+        ],
+        "CALLE LATERAL CARRETERA AL INGENIO": [
+          "Comercio al por menor de carne de aves",
+          "Comercio al por menor de leche, otros productos lácteos y embutidos",
+          "Comercio al por menor de dulces y materias primas para repostería",
+          "Comercio al por menor de otros alimentos",
+          "Comercio al por menor de paletas de hielo y helados"
+        ],
+        "BOULEVARD MEXICO LAREDO": [
+          "Servicios de preparación de otros alimentos para consumo inmediato",
+          "Comercio al por menor de frutas y verduras frescas",
+          "Comercio al por menor de semillas y granos alimenticios, especias y chiles secos",
+          "Comercio al por menor de dulces y materias primas para repostería",
+          "Comercio al por menor de otros alimentos"
+        ],
+        "CALLE FRANCISCO I MADERO": [
+          "Comercio al por menor de otros alimentos",
+          "Comercio al por menor de pescados y mariscos",
+          "Restaurantes de autoservicio"
+        ],
+        "CALLE HIDALGO": [
+          "Restaurantes con servicio de preparación de pescados y mariscos",
+          "Comercio al por menor de leche, otros productos lácteos y embutidos",
+          "Comercio al por menor de otros alimentos",
+          "Comercio al por menor de pescados y mariscos"
+        ],
+        "CALLE 5 DE MAYO": [
+          "Restaurantes con servicio de preparación de pizzas, hamburguesas, hot dogs y pollos rostizados para llevar",
+          "Comercio al por menor en minisupers",
+          "Comercio al por menor de carne de aves",
+          "Comercio al por menor de leche, otros productos lácteos y embutidos",
+          "Comercio al por menor de semillas y granos alimenticios, especias y chiles secos"
+        ]
+      }
+    },
+    "report_metadata": {
+      "generated_at": "2025-07-02T13:17:40.061505",
+      "total_records_analyzed": 4989,
+      "analysis_type": "commercial_corridors"
+    }
+  },
+  "opportunity_analysis": {
+    "market_saturation": {
+      "activity_saturation": {
+        "oversaturated": {
+          "Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas": 1596,
+          "Restaurantes con servicio de preparación de antojitos": 696,
+          "Restaurantes con servicio de preparación de tacos y tortas": 580
+        },
+        "saturated": {
+          "Servicios de preparación de otros alimentos para consumo inmediato": 291,
+          "Comercio al por menor de frutas y verduras frescas": 221,
+          "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida": 212,
+          "Restaurantes con servicio de preparación de pizzas, hamburguesas, hot dogs y pollos rostizados para llevar": 211,
+          "Comercio al por menor de carnes rojas": 202,
+          "Cafeterías, fuentes de sodas, neverías, refresquerías y similares": 178
+        },
+        "undersaturated": {
+          "Comercio al por menor en supermercados": 13,
+          "Comercio al por mayor de carnes rojas": 6,
+          "Comercio al por mayor de otros alimentos": 5,
+          "Comercio al por mayor de botanas y frituras": 5,
+          "Comercio al por mayor de frutas y verduras frescas": 3,
+          "Comercio al por mayor de leche y otros productos lácteos": 3,
+          "Comercio al por mayor de semillas y granos alimenticios, especias y chiles secos": 3,
+          "Comercio al por mayor de dulces y materias primas para repostería": 3,
+          "Comercio al por mayor de embutidos": 1,
+          "Comercio al por mayor de pan y pasteles": 1
+        },
+        "unique_activities": 2
+      },
+      "geographic_saturation": {
+        "high_density_postal_codes": {
+          "79000.0": 615,
+          "79020.0": 468,
+          "79050.0": 378,
+          "79010.0": 317,
+          "79710.0": 229,
+          "79310.0": 190,
+          "79030.0": 167,
+          "79760.0": 146,
+          "79068.0": 143,
+          "79060.0": 136,
+          "79040.0": 134,
+          "79810.0": 125,
+          "79080.0": 113
+        },
+        "low_density_postal_codes": {
+          "79700.0": 7,
+          "79093.0": 6,
+          "79026.0": 4,
+          "79018.0": 4,
+          "79023.0": 3,
+          "79099.0": 3,
+          "79240.0": 2,
+          "78390.0": 1,
+          "79960.0": 1,
+          "79293.0": 1,
+          "79850.0": 1,
+          "79025.0": 1,
+          "79033.0": 1,
+          "79950.0": 1
+        },
+        "average_businesses_per_postal_code": 74.48484848484848
+      }
+    },
+    "market_gaps": {
+      "postal_code_gaps": {
+        "79000.0": {
+          "total_businesses": 615,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 341,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 263,
+            "Comercio al por mayor": 11
+          },
+          "persona_moral_rate": 3.577235772357724
+        },
+        "79020.0": {
+          "total_businesses": 468,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 244,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 223,
+            "Comercio al por mayor": 1
+          },
+          "persona_moral_rate": 0.8547008547008548
+        },
+        "79050.0": {
+          "total_businesses": 378,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 246,
+            "Comercio al por menor": 131,
+            "Comercio al por mayor": 1
+          },
+          "persona_moral_rate": 3.7037037037037033
+        },
+        "79010.0": {
+          "total_businesses": 317,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 171,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 145,
+            "Comercio al por mayor": 1
+          },
+          "persona_moral_rate": 1.5772870662460567
+        },
+        "79710.0": {
+          "total_businesses": 229,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 115,
+            "Comercio al por menor": 113,
+            "Comercio al por mayor": 1
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79310.0": {
+          "total_businesses": 190,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 101,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 89
+          },
+          "persona_moral_rate": 0.5263157894736842
+        },
+        "79030.0": {
+          "total_businesses": 167,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 96,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 70,
+            "Comercio al por mayor": 1
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79760.0": {
+          "total_businesses": 146,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 77,
+            "Comercio al por menor": 68,
+            "Comercio al por mayor": 1
+          },
+          "persona_moral_rate": 0.684931506849315
+        },
+        "79068.0": {
+          "total_businesses": 143,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 87,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 56
+          },
+          "persona_moral_rate": 2.097902097902098
+        },
+        "79060.0": {
+          "total_businesses": 136,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 72,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 63,
+            "Comercio al por mayor": 1
+          },
+          "persona_moral_rate": 3.6764705882352944
+        },
+        "79040.0": {
+          "total_businesses": 134,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 85,
+            "Comercio al por menor": 47,
+            "Comercio al por mayor": 2
+          },
+          "persona_moral_rate": 5.223880597014925
+        },
+        "79810.0": {
+          "total_businesses": 125,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 66,
+            "Comercio al por menor": 57,
+            "Comercio al por mayor": 2
+          },
+          "persona_moral_rate": 0.8
+        },
+        "79080.0": {
+          "total_businesses": 113,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 64,
+            "Comercio al por menor": 47,
+            "Comercio al por mayor": 2
+          },
+          "persona_moral_rate": 3.5398230088495577
+        },
+        "79028.0": {
+          "total_businesses": 111,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 71,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 40
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79730.0": {
+          "total_businesses": 102,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 67,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 35
+          },
+          "persona_moral_rate": 1.9607843137254901
+        },
+        "79200.0": {
+          "total_businesses": 93,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 48,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 43,
+            "Comercio al por mayor": 2
+          },
+          "persona_moral_rate": 3.225806451612903
+        },
+        "79203.0": {
+          "total_businesses": 84,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 42,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 42
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79300.0": {
+          "total_businesses": 84,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 42,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 41,
+            "Comercio al por mayor": 1
+          },
+          "persona_moral_rate": 2.380952380952381
+        },
+        "79095.0": {
+          "total_businesses": 77,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 41,
+            "Comercio al por menor": 36
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79303.0": {
+          "total_businesses": 76,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 40,
+            "Comercio al por menor": 36
+          },
+          "persona_moral_rate": 1.3157894736842104
+        },
+        "79244.0": {
+          "total_businesses": 76,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 47,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 29
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79703.0": {
+          "total_businesses": 71,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 44,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 27
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79069.0": {
+          "total_businesses": 71,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 42,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 29
+          },
+          "persona_moral_rate": 1.4084507042253522
+        },
+        "79019.0": {
+          "total_businesses": 59,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 39,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 20
+          },
+          "persona_moral_rate": 1.694915254237288
+        },
+        "79235.0": {
+          "total_businesses": 52,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 32,
+            "Comercio al por menor": 20
+          },
+          "persona_moral_rate": 1.9230769230769231
+        },
+        "79092.0": {
+          "total_businesses": 52,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 28,
+            "Comercio al por menor": 24
+          },
+          "persona_moral_rate": 5.769230769230769
+        },
+        "79090.0": {
+          "total_businesses": 51,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 31,
+            "Comercio al por menor": 19,
+            "Comercio al por mayor": 1
+          },
+          "persona_moral_rate": 7.8431372549019605
+        },
+        "79241.0": {
+          "total_businesses": 50,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 29,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 21
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79206.0": {
+          "total_businesses": 47,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 27,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 19,
+            "Comercio al por mayor": 1
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79202.0": {
+          "total_businesses": 46,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 31,
+            "Comercio al por menor": 15
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79205.0": {
+          "total_businesses": 45,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 24,
+            "Comercio al por menor": 20,
+            "Comercio al por mayor": 1
+          },
+          "persona_moral_rate": 2.2222222222222223
+        },
+        "79043.0": {
+          "total_businesses": 42,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 28,
+            "Comercio al por menor": 14
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79207.0": {
+          "total_businesses": 41,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 21,
+            "Comercio al por menor": 20
+          },
+          "persona_moral_rate": 2.4390243902439024
+        },
+        "79063.0": {
+          "total_businesses": 39,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 22,
+            "Comercio al por menor": 17
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79082.0": {
+          "total_businesses": 38,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 26,
+            "Comercio al por menor": 11,
+            "Comercio al por mayor": 1
+          },
+          "persona_moral_rate": 5.263157894736842
+        },
+        "79208.0": {
+          "total_businesses": 35,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 20,
+            "Comercio al por menor": 15
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79098.0": {
+          "total_businesses": 33,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 17,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 16
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79236.0": {
+          "total_businesses": 33,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 17,
+            "Comercio al por menor": 16
+          },
+          "persona_moral_rate": 3.0303030303030303
+        },
+        "79220.0": {
+          "total_businesses": 26,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 16,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 10
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79070.0": {
+          "total_businesses": 24,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 12,
+            "Comercio al por menor": 10,
+            "Comercio al por mayor": 2
+          },
+          "persona_moral_rate": 8.333333333333332
+        },
+        "79059.0": {
+          "total_businesses": 23,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 14,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 9
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79094.0": {
+          "total_businesses": 22,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 13,
+            "Comercio al por menor": 9
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79058.0": {
+          "total_businesses": 19,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 12,
+            "Comercio al por menor": 6,
+            "Comercio al por mayor": 1
+          },
+          "persona_moral_rate": 5.263157894736842
+        },
+        "79084.0": {
+          "total_businesses": 14,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 7,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 7
+          },
+          "persona_moral_rate": 7.142857142857142
+        },
+        "79034.0": {
+          "total_businesses": 12,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 8,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 4
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79097.0": {
+          "total_businesses": 12,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 10,
+            "Comercio al por menor": 2
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79035.0": {
+          "total_businesses": 11,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 9,
+            "Comercio al por menor": 2
+          },
+          "persona_moral_rate": 9.090909090909092
+        },
+        "79083.0": {
+          "total_businesses": 11,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 6,
+            "Comercio al por menor": 4,
+            "Comercio al por mayor": 1
+          },
+          "persona_moral_rate": 27.27272727272727
+        },
+        "79740.0": {
+          "total_businesses": 10,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Comercio al por menor": 6,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 4
+          },
+          "persona_moral_rate": 0.0
+        },
+        "79224.0": {
+          "total_businesses": 10,
+          "missing_essential_services": [
+            "Comercio al por menor de abarrotes, alimentos, bebidas, hielo y tabaco",
+            "Servicios de preparación de alimentos y bebidas",
+            "Farmacias y boticas",
+            "Servicios bancarios y crediticios",
+            "Servicios de reparación y mantenimiento automotriz",
+            "Servicios médicos de consulta externa y servicios relacionados",
+            "Comercio al por menor de artículos de papelería, para el esparcimiento",
+            "Servicios de limpieza y lavandería"
+          ],
+          "existing_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 8,
+            "Comercio al por menor": 2
+          },
+          "persona_moral_rate": 0.0
+        }
+      },
+      "municipal_gaps": {
+        "Ciudad Valles": {
+          "total_businesses": 3438,
+          "potential_missing_activities": [],
+          "unique_activities": 30,
+          "dominant_sectors": {
+            "Comercio al por menor": 1728,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 1675,
+            "Comercio al por mayor": 35
+          }
+        },
+        "Tamuín": {
+          "total_businesses": 516,
+          "potential_missing_activities": [],
+          "unique_activities": 24,
+          "dominant_sectors": {
+            "Comercio al por menor": 264,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 247,
+            "Comercio al por mayor": 5
+          }
+        },
+        "Tamasopo": {
+          "total_businesses": 412,
+          "potential_missing_activities": [],
+          "unique_activities": 21,
+          "dominant_sectors": {
+            "Comercio al por menor": 229,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 182,
+            "Comercio al por mayor": 1
+          }
+        },
+        "El Naranjo": {
+          "total_businesses": 351,
+          "potential_missing_activities": [
+            "Comercio al por menor de paletas de hielo y helados",
+            "Comercio al por menor de pescados y mariscos"
+          ],
+          "unique_activities": 20,
+          "dominant_sectors": {
+            "Comercio al por menor": 180,
+            "Servicios de alojamiento temporal y de preparación de alimentos": 170,
+            "Comercio al por mayor": 1
+          }
+        },
+        "Aquismón": {
+          "total_businesses": 146,
+          "potential_missing_activities": [
+            "Comercio al por menor de paletas de hielo y helados",
+            "Restaurantes de autoservicio"
+          ],
+          "unique_activities": 19,
+          "dominant_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 77,
+            "Comercio al por menor": 68,
+            "Comercio al por mayor": 1
+          }
+        },
+        "Tanlajás": {
+          "total_businesses": 126,
+          "potential_missing_activities": [
+            "Restaurantes que preparan otro tipo de alimentos para llevar",
+            "Comercio al por menor de leche, otros productos lácteos y embutidos",
+            "Restaurantes de autoservicio"
+          ],
+          "unique_activities": 19,
+          "dominant_sectors": {
+            "Servicios de alojamiento temporal y de preparación de alimentos": 67,
+            "Comercio al por menor": 57,
+            "Comercio al por mayor": 2
+          }
+        }
+      }
+    },
+    "emerging_opportunities": {
+      "fast_growing_activities": [
+        {
+          "activity": "Restaurantes de autoservicio",
+          "recent_count": 16,
+          "recent_annual_rate": 5.333333333333333,
+          "historical_annual_rate": 0.5,
+          "growth_ratio": 10.666666666666666
+        },
+        {
+          "activity": "Servicios de preparación de otros alimentos para consumo inmediato",
+          "recent_count": 201,
+          "recent_annual_rate": 67.0,
+          "historical_annual_rate": 7.25,
+          "growth_ratio": 9.241379310344827
+        },
+        {
+          "activity": "Comercio al por menor de paletas de hielo y helados",
+          "recent_count": 23,
+          "recent_annual_rate": 7.666666666666667,
+          "historical_annual_rate": 0.8333333333333334,
+          "growth_ratio": 9.2
+        },
+        {
+          "activity": "Restaurantes con servicio de preparación de pizzas, hamburguesas, hot dogs y pollos rostizados para llevar",
+          "recent_count": 117,
+          "recent_annual_rate": 39.0,
+          "historical_annual_rate": 7.416666666666667,
+          "growth_ratio": 5.258426966292134
+        },
+        {
+          "activity": "Comercio al por menor de leche, otros productos lácteos y embutidos",
+          "recent_count": 35,
+          "recent_annual_rate": 11.666666666666666,
+          "historical_annual_rate": 2.75,
+          "growth_ratio": 4.242424242424242
+        },
+        {
+          "activity": "Comercio al por menor de otros alimentos",
+          "recent_count": 26,
+          "recent_annual_rate": 8.666666666666666,
+          "historical_annual_rate": 2.1666666666666665,
+          "growth_ratio": 4.0
+        },
+        {
+          "activity": "Comercio al por menor de pescados y mariscos",
+          "recent_count": 17,
+          "recent_annual_rate": 5.666666666666667,
+          "historical_annual_rate": 1.4166666666666667,
+          "growth_ratio": 4.0
+        },
+        {
+          "activity": "Restaurantes con servicio de preparación de tacos y tortas",
+          "recent_count": 279,
+          "recent_annual_rate": 93.0,
+          "historical_annual_rate": 24.5,
+          "growth_ratio": 3.795918367346939
+        },
+        {
+          "activity": "Cafeterías, fuentes de sodas, neverías, refresquerías y similares",
+          "recent_count": 84,
+          "recent_annual_rate": 28.0,
+          "historical_annual_rate": 7.416666666666667,
+          "growth_ratio": 3.7752808988764044
+        },
+        {
+          "activity": "Restaurantes con servicio de preparación de antojitos",
+          "recent_count": 325,
+          "recent_annual_rate": 108.33333333333333,
+          "historical_annual_rate": 30.583333333333332,
+          "growth_ratio": 3.542234332425068
+        },
+        {
+          "activity": "Comercio al por menor de carne de aves",
+          "recent_count": 37,
+          "recent_annual_rate": 12.333333333333334,
+          "historical_annual_rate": 3.5833333333333335,
+          "growth_ratio": 3.441860465116279
+        },
+        {
+          "activity": "Restaurantes con servicio de preparación de alimentos a la carta o de comida corrida",
+          "recent_count": 89,
+          "recent_annual_rate": 29.666666666666668,
+          "historical_annual_rate": 10.0,
+          "growth_ratio": 2.966666666666667
+        },
+        {
+          "activity": "Comercio al por mayor de otros alimentos",
+          "recent_count": 2,
+          "recent_annual_rate": 0.6666666666666666,
+          "historical_annual_rate": 0.25,
+          "growth_ratio": 2.6666666666666665
+        },
+        {
+          "activity": "Comercio al por menor en minisupers",
+          "recent_count": 35,
+          "recent_annual_rate": 11.666666666666666,
+          "historical_annual_rate": 4.5,
+          "growth_ratio": 2.5925925925925926
+        },
+        {
+          "activity": "Restaurantes que preparan otro tipo de alimentos para llevar",
+          "recent_count": 56,
+          "recent_annual_rate": 18.666666666666668,
+          "historical_annual_rate": 7.25,
+          "growth_ratio": 2.574712643678161
+        }
+      ],
+      "dynamic_sectors": {
+        "Servicios de alojamiento temporal y de preparación de alimentos": {
+          "newness_ratio": 0.5198511166253101,
+          "total_businesses": 2418,
+          "recent_businesses": 1257
+        },
+        "Comercio al por menor": {
+          "newness_ratio": 0.3582739509105305,
+          "total_businesses": 2526,
+          "recent_businesses": 905
+        },
+        "Comercio al por mayor": {
+          "newness_ratio": 0.13333333333333333,
+          "total_businesses": 45,
+          "recent_businesses": 6
+        }
+      },
+      "low_digitalization_opportunities": {
+        "Comercio al por menor": {
+          "total_businesses": 2526,
+          "digital_businesses": 194,
+          "digital_penetration_rate": 0.0768012668250198
+        },
+        "Servicios de alojamiento temporal y de preparación de alimentos": {
+          "total_businesses": 2418,
+          "digital_businesses": 100,
+          "digital_penetration_rate": 0.0413564929693962
+        }
+      },
+      "analysis_metadata": {
+        "total_businesses_analyzed": 4989,
+        "businesses_with_valid_dates": 4989,
+        "current_analysis_year": 2025,
+        "recent_years_analyzed": [
+          2024,
+          2023,
+          2022
+        ]
+      }
+    },
+    "underserved_areas": {
+      "low_business_density_areas": {
+        "79023.0": 3,
+        "79099.0": 3,
+        "79240.0": 2,
+        "78390.0": 1,
+        "79960.0": 1,
+        "79293.0": 1,
+        "79850.0": 1,
+        "79025.0": 1,
+        "79033.0": 1,
+        "79950.0": 1
+      },
+      "high_persona_fisica_areas": {
+        "79000.0": {
+          "total_businesses": 615,
+          "personas_morales": 22,
+          "persona_moral_rate": 0.03577235772357724
+        },
+        "79020.0": {
+          "total_businesses": 468,
+          "personas_morales": 4,
+          "persona_moral_rate": 0.008547008547008548
+        },
+        "79050.0": {
+          "total_businesses": 378,
+          "personas_morales": 14,
+          "persona_moral_rate": 0.037037037037037035
+        },
+        "79010.0": {
+          "total_businesses": 317,
+          "personas_morales": 5,
+          "persona_moral_rate": 0.015772870662460567
+        },
+        "79710.0": {
+          "total_businesses": 229,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79310.0": {
+          "total_businesses": 190,
+          "personas_morales": 1,
+          "persona_moral_rate": 0.005263157894736842
+        },
+        "79030.0": {
+          "total_businesses": 167,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79760.0": {
+          "total_businesses": 146,
+          "personas_morales": 1,
+          "persona_moral_rate": 0.00684931506849315
+        },
+        "79068.0": {
+          "total_businesses": 143,
+          "personas_morales": 3,
+          "persona_moral_rate": 0.02097902097902098
+        },
+        "79060.0": {
+          "total_businesses": 136,
+          "personas_morales": 5,
+          "persona_moral_rate": 0.03676470588235294
+        },
+        "79040.0": {
+          "total_businesses": 134,
+          "personas_morales": 7,
+          "persona_moral_rate": 0.05223880597014925
+        },
+        "79810.0": {
+          "total_businesses": 125,
+          "personas_morales": 1,
+          "persona_moral_rate": 0.008
+        },
+        "79080.0": {
+          "total_businesses": 113,
+          "personas_morales": 4,
+          "persona_moral_rate": 0.035398230088495575
+        },
+        "79028.0": {
+          "total_businesses": 111,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79730.0": {
+          "total_businesses": 102,
+          "personas_morales": 2,
+          "persona_moral_rate": 0.0196078431372549
+        },
+        "79200.0": {
+          "total_businesses": 93,
+          "personas_morales": 3,
+          "persona_moral_rate": 0.03225806451612903
+        },
+        "79203.0": {
+          "total_businesses": 84,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79300.0": {
+          "total_businesses": 84,
+          "personas_morales": 2,
+          "persona_moral_rate": 0.023809523809523808
+        },
+        "79095.0": {
+          "total_businesses": 77,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79303.0": {
+          "total_businesses": 76,
+          "personas_morales": 1,
+          "persona_moral_rate": 0.013157894736842105
+        },
+        "79244.0": {
+          "total_businesses": 76,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79069.0": {
+          "total_businesses": 71,
+          "personas_morales": 1,
+          "persona_moral_rate": 0.014084507042253521
+        },
+        "79703.0": {
+          "total_businesses": 71,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79019.0": {
+          "total_businesses": 59,
+          "personas_morales": 1,
+          "persona_moral_rate": 0.01694915254237288
+        },
+        "79235.0": {
+          "total_businesses": 52,
+          "personas_morales": 1,
+          "persona_moral_rate": 0.019230769230769232
+        },
+        "79092.0": {
+          "total_businesses": 52,
+          "personas_morales": 3,
+          "persona_moral_rate": 0.057692307692307696
+        },
+        "79090.0": {
+          "total_businesses": 51,
+          "personas_morales": 4,
+          "persona_moral_rate": 0.0784313725490196
+        },
+        "79241.0": {
+          "total_businesses": 50,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79206.0": {
+          "total_businesses": 47,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79202.0": {
+          "total_businesses": 46,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79205.0": {
+          "total_businesses": 45,
+          "personas_morales": 1,
+          "persona_moral_rate": 0.022222222222222223
+        },
+        "79043.0": {
+          "total_businesses": 42,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79207.0": {
+          "total_businesses": 41,
+          "personas_morales": 1,
+          "persona_moral_rate": 0.024390243902439025
+        },
+        "79063.0": {
+          "total_businesses": 39,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79082.0": {
+          "total_businesses": 38,
+          "personas_morales": 2,
+          "persona_moral_rate": 0.05263157894736842
+        },
+        "79208.0": {
+          "total_businesses": 35,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79236.0": {
+          "total_businesses": 33,
+          "personas_morales": 1,
+          "persona_moral_rate": 0.030303030303030304
+        },
+        "79098.0": {
+          "total_businesses": 33,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79220.0": {
+          "total_businesses": 26,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79070.0": {
+          "total_businesses": 24,
+          "personas_morales": 2,
+          "persona_moral_rate": 0.08333333333333333
+        },
+        "79059.0": {
+          "total_businesses": 23,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79094.0": {
+          "total_businesses": 22,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79058.0": {
+          "total_businesses": 19,
+          "personas_morales": 1,
+          "persona_moral_rate": 0.05263157894736842
+        },
+        "79084.0": {
+          "total_businesses": 14,
+          "personas_morales": 1,
+          "persona_moral_rate": 0.07142857142857142
+        },
+        "79097.0": {
+          "total_businesses": 12,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79034.0": {
+          "total_businesses": 12,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79035.0": {
+          "total_businesses": 11,
+          "personas_morales": 1,
+          "persona_moral_rate": 0.09090909090909091
+        },
+        "79083.0": {
+          "total_businesses": 11,
+          "personas_morales": 3,
+          "persona_moral_rate": 0.2727272727272727
+        },
+        "79740.0": {
+          "total_businesses": 10,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79224.0": {
+          "total_businesses": 10,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79096.0": {
+          "total_businesses": 9,
+          "personas_morales": 1,
+          "persona_moral_rate": 0.1111111111111111
+        },
+        "79027.0": {
+          "total_businesses": 8,
+          "personas_morales": 1,
+          "persona_moral_rate": 0.125
+        },
+        "79700.0": {
+          "total_businesses": 7,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        },
+        "79093.0": {
+          "total_businesses": 6,
+          "personas_morales": 0,
+          "persona_moral_rate": 0.0
+        }
+      },
+      "low_diversity_areas": {
+        "79000.0": {
+          "activity_diversity": 25,
+          "sector_diversity": 3,
+          "total_businesses": 615,
+          "diversity_ratio": 0.04065040650406504
+        },
+        "79020.0": {
+          "activity_diversity": 20,
+          "sector_diversity": 3,
+          "total_businesses": 468,
+          "diversity_ratio": 0.042735042735042736
+        },
+        "79050.0": {
+          "activity_diversity": 22,
+          "sector_diversity": 3,
+          "total_businesses": 378,
+          "diversity_ratio": 0.0582010582010582
+        },
+        "79010.0": {
+          "activity_diversity": 20,
+          "sector_diversity": 3,
+          "total_businesses": 317,
+          "diversity_ratio": 0.06309148264984227
+        },
+        "79710.0": {
+          "activity_diversity": 21,
+          "sector_diversity": 3,
+          "total_businesses": 229,
+          "diversity_ratio": 0.09170305676855896
+        },
+        "79310.0": {
+          "activity_diversity": 18,
+          "sector_diversity": 2,
+          "total_businesses": 190,
+          "diversity_ratio": 0.09473684210526316
+        },
+        "79030.0": {
+          "activity_diversity": 17,
+          "sector_diversity": 3,
+          "total_businesses": 167,
+          "diversity_ratio": 0.10179640718562874
+        },
+        "79760.0": {
+          "activity_diversity": 19,
+          "sector_diversity": 3,
+          "total_businesses": 146,
+          "diversity_ratio": 0.13013698630136986
+        },
+        "79068.0": {
+          "activity_diversity": 13,
+          "sector_diversity": 2,
+          "total_businesses": 143,
+          "diversity_ratio": 0.09090909090909091
+        },
+        "79060.0": {
+          "activity_diversity": 16,
+          "sector_diversity": 3,
+          "total_businesses": 136,
+          "diversity_ratio": 0.11764705882352941
+        },
+        "79040.0": {
+          "activity_diversity": 23,
+          "sector_diversity": 3,
+          "total_businesses": 134,
+          "diversity_ratio": 0.17164179104477612
+        },
+        "79810.0": {
+          "activity_diversity": 19,
+          "sector_diversity": 3,
+          "total_businesses": 125,
+          "diversity_ratio": 0.152
+        },
+        "79080.0": {
+          "activity_diversity": 19,
+          "sector_diversity": 3,
+          "total_businesses": 113,
+          "diversity_ratio": 0.168141592920354
+        },
+        "79028.0": {
+          "activity_diversity": 15,
+          "sector_diversity": 2,
+          "total_businesses": 111,
+          "diversity_ratio": 0.13513513513513514
+        },
+        "79730.0": {
+          "activity_diversity": 16,
+          "sector_diversity": 2,
+          "total_businesses": 102,
+          "diversity_ratio": 0.1568627450980392
+        },
+        "79200.0": {
+          "activity_diversity": 19,
+          "sector_diversity": 3,
+          "total_businesses": 93,
+          "diversity_ratio": 0.20430107526881722
+        },
+        "79300.0": {
+          "activity_diversity": 15,
+          "sector_diversity": 3,
+          "total_businesses": 84,
+          "diversity_ratio": 0.17857142857142858
+        },
+        "79203.0": {
+          "activity_diversity": 14,
+          "sector_diversity": 2,
+          "total_businesses": 84,
+          "diversity_ratio": 0.16666666666666666
+        },
+        "79095.0": {
+          "activity_diversity": 15,
+          "sector_diversity": 2,
+          "total_businesses": 77,
+          "diversity_ratio": 0.19480519480519481
+        },
+        "79244.0": {
+          "activity_diversity": 15,
+          "sector_diversity": 2,
+          "total_businesses": 76,
+          "diversity_ratio": 0.19736842105263158
+        },
+        "79303.0": {
+          "activity_diversity": 15,
+          "sector_diversity": 2,
+          "total_businesses": 76,
+          "diversity_ratio": 0.19736842105263158
+        },
+        "79703.0": {
+          "activity_diversity": 13,
+          "sector_diversity": 2,
+          "total_businesses": 71,
+          "diversity_ratio": 0.18309859154929578
+        },
+        "79069.0": {
+          "activity_diversity": 10,
+          "sector_diversity": 2,
+          "total_businesses": 71,
+          "diversity_ratio": 0.14084507042253522
+        },
+        "79019.0": {
+          "activity_diversity": 13,
+          "sector_diversity": 2,
+          "total_businesses": 59,
+          "diversity_ratio": 0.22033898305084745
+        },
+        "79092.0": {
+          "activity_diversity": 12,
+          "sector_diversity": 2,
+          "total_businesses": 52,
+          "diversity_ratio": 0.23076923076923078
+        },
+        "79235.0": {
+          "activity_diversity": 11,
+          "sector_diversity": 2,
+          "total_businesses": 52,
+          "diversity_ratio": 0.21153846153846154
+        },
+        "79090.0": {
+          "activity_diversity": 11,
+          "sector_diversity": 3,
+          "total_businesses": 51,
+          "diversity_ratio": 0.21568627450980393
+        },
+        "79241.0": {
+          "activity_diversity": 10,
+          "sector_diversity": 2,
+          "total_businesses": 50,
+          "diversity_ratio": 0.2
+        },
+        "79206.0": {
+          "activity_diversity": 9,
+          "sector_diversity": 3,
+          "total_businesses": 47,
+          "diversity_ratio": 0.19148936170212766
+        },
+        "79202.0": {
+          "activity_diversity": 12,
+          "sector_diversity": 2,
+          "total_businesses": 46,
+          "diversity_ratio": 0.2608695652173913
+        },
+        "79205.0": {
+          "activity_diversity": 14,
+          "sector_diversity": 3,
+          "total_businesses": 45,
+          "diversity_ratio": 0.3111111111111111
+        },
+        "79043.0": {
+          "activity_diversity": 13,
+          "sector_diversity": 2,
+          "total_businesses": 42,
+          "diversity_ratio": 0.30952380952380953
+        },
+        "79207.0": {
+          "activity_diversity": 10,
+          "sector_diversity": 2,
+          "total_businesses": 41,
+          "diversity_ratio": 0.24390243902439024
+        },
+        "79063.0": {
+          "activity_diversity": 10,
+          "sector_diversity": 2,
+          "total_businesses": 39,
+          "diversity_ratio": 0.2564102564102564
+        },
+        "79082.0": {
+          "activity_diversity": 12,
+          "sector_diversity": 3,
+          "total_businesses": 38,
+          "diversity_ratio": 0.3157894736842105
+        },
+        "79208.0": {
+          "activity_diversity": 10,
+          "sector_diversity": 2,
+          "total_businesses": 35,
+          "diversity_ratio": 0.2857142857142857
+        },
+        "79236.0": {
+          "activity_diversity": 10,
+          "sector_diversity": 2,
+          "total_businesses": 33,
+          "diversity_ratio": 0.30303030303030304
+        },
+        "79098.0": {
+          "activity_diversity": 7,
+          "sector_diversity": 2,
+          "total_businesses": 33,
+          "diversity_ratio": 0.21212121212121213
+        },
+        "79220.0": {
+          "activity_diversity": 7,
+          "sector_diversity": 2,
+          "total_businesses": 26,
+          "diversity_ratio": 0.2692307692307692
+        },
+        "79070.0": {
+          "activity_diversity": 10,
+          "sector_diversity": 3,
+          "total_businesses": 24,
+          "diversity_ratio": 0.4166666666666667
+        },
+        "79059.0": {
+          "activity_diversity": 7,
+          "sector_diversity": 2,
+          "total_businesses": 23,
+          "diversity_ratio": 0.30434782608695654
+        },
+        "79094.0": {
+          "activity_diversity": 5,
+          "sector_diversity": 2,
+          "total_businesses": 22,
+          "diversity_ratio": 0.22727272727272727
+        },
+        "79034.0": {
+          "activity_diversity": 4,
+          "sector_diversity": 2,
+          "total_businesses": 12,
+          "diversity_ratio": 0.3333333333333333
+        },
+        "79740.0": {
+          "activity_diversity": 4,
+          "sector_diversity": 2,
+          "total_businesses": 10,
+          "diversity_ratio": 0.4
+        },
+        "79093.0": {
+          "activity_diversity": 2,
+          "sector_diversity": 2,
+          "total_businesses": 6,
+          "diversity_ratio": 0.3333333333333333
+        }
+      }
+    },
+    "niche_opportunities": {
+      "unique_business_activities": {
+        "Comercio al por mayor de embutidos": 1,
+        "Comercio al por mayor de pan y pasteles": 1
+      },
+      "rare_business_activities": {
+        "Comercio al por mayor de frutas y verduras frescas": 3,
+        "Comercio al por mayor de leche y otros productos lácteos": 3,
+        "Comercio al por mayor de semillas y granos alimenticios, especias y chiles secos": 3,
+        "Comercio al por mayor de dulces y materias primas para repostería": 3
+      },
+      "specialized_activities_by_sector": {
+        "Comercio al por mayor": {
+          "Comercio al por mayor de pan y pasteles": 1,
+          "Comercio al por mayor de embutidos": 1
+        }
+      },
+      "rare_activities_in_corridors": {
+        "AVENIDA GENERAL PEDRO ANTONIO DE LOS SANTOS": [
+          "Comercio al por mayor de semillas y granos alimenticios, especias y chiles secos"
+        ]
+      }
+    },
+    "business_size_opportunities": {
+      "micro_dominated_sectors": {
+        "Comercio al por menor": {
+          "Grande": 0.11876484560570072,
+          "Mediana": 0.35629453681710216,
+          "Micro": 95.88281868566905,
+          "Pequeña": 3.642121931908155
+        },
+        "Servicios de alojamiento temporal y de preparación de alimentos": {
+          "Grande": 0.0,
+          "Mediana": 0.0413564929693962,
+          "Micro": 92.3490488006617,
+          "Pequeña": 7.6095947063689
+        }
+      },
+      "sectors_needing_large_players": {
+        "Comercio al por menor": {
+          "Grande": 0.11876484560570072,
+          "Mediana": 0.35629453681710216,
+          "Micro": 95.88281868566905,
+          "Pequeña": 3.642121931908155
+        },
+        "Servicios de alojamiento temporal y de preparación de alimentos": {
+          "Grande": 0.0,
+          "Mediana": 0.0413564929693962,
+          "Micro": 92.3490488006617,
+          "Pequeña": 7.6095947063689
+        }
+      },
+      "postal_code_size_analysis": {
+        "79000.0": {
+          "size_distribution": {
+            "Micro": 87.8048780487805,
+            "Pequeña": 11.869918699186991,
+            "Grande": 0.16260162601626016,
+            "Mediana": 0.16260162601626016
+          },
+          "total_businesses": 615,
+          "lacks_large_businesses": "True",
+          "micro_dominated": "True"
+        },
+        "79020.0": {
+          "size_distribution": {
+            "Micro": 97.43589743589743,
+            "Pequeña": 2.564102564102564
+          },
+          "total_businesses": 468,
+          "lacks_large_businesses": true,
+          "micro_dominated": "True"
+        },
+        "79050.0": {
+          "size_distribution": {
+            "Micro": 87.56613756613757,
+            "Pequeña": 12.16931216931217,
+            "Grande": 0.26455026455026454
+          },
+          "total_businesses": 378,
+          "lacks_large_businesses": "True",
+          "micro_dominated": "True"
+        },
+        "79010.0": {
+          "size_distribution": {
+            "Micro": 97.16088328075709,
+            "Pequeña": 2.8391167192429023
+          },
+          "total_businesses": 317,
+          "lacks_large_businesses": true,
+          "micro_dominated": "True"
+        },
+        "79710.0": {
+          "size_distribution": {
+            "Micro": 96.50655021834062,
+            "Pequeña": 3.4934497816593884
+          },
+          "total_businesses": 229,
+          "lacks_large_businesses": true,
+          "micro_dominated": "True"
+        },
+        "79310.0": {
+          "size_distribution": {
+            "Micro": 96.3157894736842,
+            "Pequeña": 3.684210526315789
+          },
+          "total_businesses": 190,
+          "lacks_large_businesses": true,
+          "micro_dominated": "True"
+        },
+        "79030.0": {
+          "size_distribution": {
+            "Micro": 99.40119760479041,
+            "Pequeña": 0.5988023952095809
+          },
+          "total_businesses": 167,
+          "lacks_large_businesses": true,
+          "micro_dominated": "True"
+        },
+        "79760.0": {
+          "size_distribution": {
+            "Micro": 93.83561643835617,
+            "Pequeña": 6.164383561643835
+          },
+          "total_businesses": 146,
+          "lacks_large_businesses": true,
+          "micro_dominated": "True"
+        },
+        "79068.0": {
+          "size_distribution": {
+            "Micro": 95.8041958041958,
+            "Pequeña": 4.195804195804196
+          },
+          "total_businesses": 143,
+          "lacks_large_businesses": true,
+          "micro_dominated": "True"
+        },
+        "79060.0": {
+          "size_distribution": {
+            "Micro": 96.32352941176471,
+            "Pequeña": 3.6764705882352944
+          },
+          "total_businesses": 136,
+          "lacks_large_businesses": true,
+          "micro_dominated": "True"
+        },
+        "79040.0": {
+          "size_distribution": {
+            "Micro": 87.31343283582089,
+            "Pequeña": 11.940298507462686,
+            "Mediana": 0.7462686567164178
+          },
+          "total_businesses": 134,
+          "lacks_large_businesses": true,
+          "micro_dominated": "True"
+        },
+        "79810.0": {
+          "size_distribution": {
+            "Micro": 94.39999999999999,
+            "Pequeña": 5.6000000000000005
+          },
+          "total_businesses": 125,
+          "lacks_large_businesses": true,
+          "micro_dominated": "True"
+        },
+        "79080.0": {
+          "size_distribution": {
+            "Micro": 91.1504424778761,
+            "Pequeña": 7.964601769911504,
+            "Mediana": 0.8849557522123894
+          },
+          "total_businesses": 113,
+          "lacks_large_businesses": true,
+          "micro_dominated": "True"
+        },
+        "79028.0": {
+          "size_distribution": {
+            "Micro": 99.09909909909909,
+            "Pequeña": 0.9009009009009009
+          },
+          "total_businesses": 111,
+          "lacks_large_businesses": true,
+          "micro_dominated": "True"
+        },
+        "79730.0": {
+          "size_distribution": {
+            "Micro": 97.05882352941177,
+            "Pequeña": 2.941176470588235
+          },
+          "total_businesses": 102,
+          "lacks_large_businesses": true,
+          "micro_dominated": "True"
+        },
+        "79200.0": {
+          "size_distribution": {
+            "Micro": 92.47311827956989,
+            "Pequeña": 7.526881720430108
+          },
+          "total_businesses": 93,
+          "lacks_large_businesses": true,
+          "micro_dominated": "True"
+        },
+        "79203.0": {
+          "size_distribution": {
+            "Micro": 98.80952380952381,
+            "Pequeña": 1.1904761904761905
+          },
+          "total_businesses": 84,
+          "lacks_large_businesses": true,
+          "micro_dominated": "True"
+        },
+        "79300.0": {
+          "size_distribution": {
+            "Micro": 94.04761904761905,
+            "Pequeña": 5.952380952380952
+          },
+          "total_businesses": 84,
+          "lacks_large_businesses": true,
+          "micro_dominated": "True"
+        },
+        "79095.0": {
+          "size_distribution": {
+            "Micro": 96.1038961038961,
+            "Pequeña": 3.896103896103896
+          },
+          "total_businesses": 77,
+          "lacks_large_businesses": true,
+          "micro_dominated": "True"
+        },
+        "79303.0": {
+          "size_distribution": {
+            "Micro": 97.36842105263158,
+            "Pequeña": 2.631578947368421
+          },
+          "total_businesses": 76,
+          "lacks_large_businesses": true,
+          "micro_dominated": "True"
+        }
+      }
+    },
+    "report_metadata": {
+      "generated_at": "2025-07-02T13:17:40.162905",
+      "total_records_analyzed": 4989,
+      "analysis_type": "market_opportunities",
+      "current_year": 2025
+    }
+  },
+  "strategic_recommendations": {
+    "immediate_actions": [
+      {
+        "action": "Desarrollar servicios de estructuración corporativa y apoyo empresarial",
+        "rationale": "Alta proporción de personas físicas (96.5%)",
+        "potential_impact": "Alto"
+      }
+    ],
+    "medium_term_strategies": [
+      {
+        "strategy": "Considerar entrada en mercado de Comercio al por menor en supermercados",
+        "rationale": "Actividad subsaturada con potencial de crecimiento",
+        "risk_level": "Medio"
+      }
+    ],
+    "long_term_opportunities": [
+      {
+        "opportunity": "Desarrollar ecosistemas empresariales en corredores principales",
+        "rationale": "Identificadas sinergias entre tipos de negocios",
+        "timeline": "2-3 años"
+      }
+    ]
+  },
+  "report_metadata": {
+    "generated_at": "2025-07-02T13:17:40.162943",
+    "report_version": "2.0",
+    "analysis_completeness": 100.0,
+    "data_freshness": "Muy reciente"
+  }
+}
